@@ -1,0 +1,21 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=logo
+template="name=l1 author=\\"Joanne Low\\" note=\\"Circuits created by Openram\\""
+verilog_ignore=true
+vhdl_ignore=true
+spice_ignore=true
+tedax_ignore=true}
+V {}
+S {}
+E {}
+L 6 115 0 910 0 {}
+L 6 -222.5 0 -157.5 0 {}
+P 7 13 5 -30 -25 0 5 30 -15 30 -35 10 -55 30 -75 30 -45 0 -75 -30 -55 -30 -35 -10 -15 -30 5 -30 {}
+P 7 9 -150 -30 -130 -30 -110 -10 -90 -30 -70 -30 -130 30 -160 30 -120 0 -150 -30 {}
+T {@schname} 125 5 0 0 0.4 0.4 {}
+T {@author} 125 -25 0 0 0.4 0.4 {}
+T {@time_last_modified} 910 -20 0 1 0.4 0.3 {}
+T {TECH} 10 -35 0 0 1 1 {}
+T {schem} 15 10 0 0 0.5 0.5 {}
+T {@note} 595 5 0 0 0.4 0.4 {}
