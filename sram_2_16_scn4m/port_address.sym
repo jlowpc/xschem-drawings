@@ -1,0 +1,27 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@addr[0:3] @@wl_en @@wl[0:15] @@rbl_wl @vdd @gnd port_address"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 -130 -190 130 -190 {}
+L 4 -130 -80 130 -80 {}
+L 4 -130 -190 -130 -80 {}
+L 4 130 -190 130 -80 {}
+L 4 -130 -180 -110 -180 {}
+L 4 -130 -100 -110 -100 {}
+L 4 110 -170 130 -170 {}
+L 4 110 -150 130 -150 {}
+B 5 -132.5 -182.5 -127.5 -177.5 {name=addr[0:3] dir=in }
+B 5 -132.5 -102.5 -127.5 -97.5 {name=wl_en dir=in }
+B 5 127.5 -172.5 132.5 -167.5 {name=wl[0:15] dir=out }
+B 5 127.5 -152.5 132.5 -147.5 {name=rbl_wl dir=out }
+T {@symname} -100 -206 0 0 0.3 0.3 {hcenter=true}
+T {@name} 105 -202 0 0 0.2 0.2 {}
+T {addr[0:3]} -105 -184 0 0 0.2 0.2 {}
+T {wl_en} -105 -104 0 0 0.2 0.2 {}
+T {wl[0:15]} 105 -174 0 1 0.2 0.2 {}
+T {rbl_wl} 105 -154 0 1 0.2 0.2 {}
