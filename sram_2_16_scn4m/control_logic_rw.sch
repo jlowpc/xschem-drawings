@@ -16,7 +16,7 @@ T {@symname} 310 -770 0 0 0.2 0.2 {}
 T {@name} 1330 -770 0 0 0.2 0.2 {}
 N 420 -580 610 -580 { lab=clk_buf}
 N 550 -650 610 -650 { lab=csb,web}
-N 1270 -630 1300 -630 { lab=cs_bar,cs}
+N 1270 -630 1300 -630 { lab=cs,we_bar}
 N 300 -580 350 -580 { lab=clk}
 N 460 -580 460 -360 { lab=clk_buf}
 N 460 -400 1390 -400 { lab=clk_buf}
@@ -44,7 +44,7 @@ N 1170 -40 1390 -40 { lab=s_en}
 N 640 -330 680 -330 { lab=rbl_bl_delay}
 N 780 -340 900 -340 { lab=p_en_bar_unbuf}
 N 970 -340 1390 -340 { lab=p_en_bar}
-N 1270 -540 1300 -540 { lab=we_bar,we}
+N 1270 -540 1300 -540 { lab=cs_bar,we}
 N 460 -360 460 -260 { lab=clk_buf}
 C {devices/ipin.sym} 300 -580 0 0 {name=p2150 lab=clk }
 C {devices/ipin.sym} 300 -160 0 0 {name=p2151 lab=rbl_bl }
@@ -83,5 +83,5 @@ C {devices/lab_wire.sym} 1220 -160 0 0 {lab=w_en}
 C {devices/lab_wire.sym} 1020 -20 0 0 {lab=we_bar}
 C {devices/lab_wire.sym} 640 -330 0 0 {lab=rbl_bl_delay }
 C {devices/lab_pin.sym} 550 -650 0 0 {name=l1 sig_type=std_logic lab=csb,web}
-C {devices/lab_pin.sym} 1300 -630 0 1 {name=l2 sig_type=std_logic lab=cs_bar,cs}
-C {devices/lab_pin.sym} 1300 -540 0 1 {name=l3 sig_type=std_logic lab=we_bar,we}
+C {devices/lab_pin.sym} 1300 -630 0 1 {name=l2 sig_type=std_logic lab=cs,we_bar}
+C {devices/lab_pin.sym} 1300 -540 0 1 {name=l3 sig_type=std_logic lab=cs_bar,we}
