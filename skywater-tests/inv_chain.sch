@@ -12,7 +12,7 @@ N 210 -80 260 -80 { lab=n1}
 N 340 -80 410 -80 { lab=n2}
 N 490 -80 550 -80 { lab=out}
 C {yxt_title.sym} 220 140 0 0 {name=l3 author="Joanne Low" note="Circuits created by Openram"}
-C {devices/code.sym} 270 -280 0 0 {name=TT_MODELS
+C {code.sym} 270 -280 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
 value="
@@ -26,7 +26,7 @@ value="
 .include \\\\$::SKYWATER_MODELS\\\\/models/all.spice
 "
 }
-C {devices/code_shown.sym} 0 -390 0 0 {name=NGSPICE
+C {code_shown.sym} 0 -390 0 0 {name=NGSPICE
 only_toplevel=true
 value="
 *Nodes gnd and 0 are the same global ground node in ngspice/hspice/xa. Otherwise, this source may be needed.
@@ -43,8 +43,8 @@ write pinv.raw
 .endc
 "
 }
-C {devices/lab_wire.sym} 130 -80 0 0 {name=l1 sig_type=std_logic lab=in}
-C {devices/lab_wire.sym} 250 -80 0 0 {name=l2 sig_type=std_logic lab=n1}
+C {lab_wire.sym} 130 -80 0 0 {name=l1 sig_type=std_logic lab=in}
+C {lab_wire.sym} 250 -80 0 0 {name=l2 sig_type=std_logic lab=n1}
 C {yinv.sym} 180 10 0 0 {name=x1 m=1 
 + W_N=1 L_N=0.15 W_P=2 L_P=0.35
 + VCCPIN=vdd VSSPIN=gnd}
@@ -54,5 +54,5 @@ C {yinv.sym} 300 10 0 0 {name=x2 m=1
 C {yinv.sym} 450 10 0 0 {name=x3 m=1 
 + W_N=1 L_N=0.15 W_P=2 L_P=0.35
 + VCCPIN=vdd VSSPIN=gnd}
-C {devices/lab_wire.sym} 390 -80 0 0 {name=l4 sig_type=std_logic lab=n2}
-C {devices/lab_wire.sym} 530 -80 0 0 {name=l5 sig_type=std_logic lab=out}
+C {lab_wire.sym} 390 -80 0 0 {name=l4 sig_type=std_logic lab=n2}
+C {lab_wire.sym} 530 -80 0 0 {name=l5 sig_type=std_logic lab=out}

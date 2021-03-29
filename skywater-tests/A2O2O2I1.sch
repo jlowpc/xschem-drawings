@@ -40,10 +40,10 @@ N 500 -260 530 -260 { lab=C}
 N 760 -260 790 -260 { lab=D}
 N 460 -560 530 -560 { lab=A}
 N 500 -390 530 -390 { lab=A}
-C {devices/ipin.sym} 460 -680 0 0 {name=p58 lab=B}
-C {devices/opin.sym} 800 -470 0 0 {name=p59 lab=Z }
-C {devices/lab_pin.sym} 640 -730 1 0 {name=l1 sig_type=std_logic lab=VCCPIN}
-C {devices/lab_pin.sym} 650 -210 3 0 {name=l2 sig_type=std_logic lab=VSSPIN}
+C {ipin.sym} 460 -680 0 0 {name=p58 lab=B}
+C {opin.sym} 800 -470 0 0 {name=p59 lab=Z }
+C {lab_pin.sym} 640 -730 1 0 {name=l1 sig_type=std_logic lab=VCCPIN}
+C {lab_pin.sym} 650 -210 3 0 {name=l2 sig_type=std_logic lab=VSSPIN}
 C {yxt_title.sym} 230 -50 0 0 {name=l3 author="Joanne Low" note="Circuits created by Openram"}
 C {nfet3_01v8.sym} 550 -390 0 0 {name=MnA
 L=L_N
@@ -165,10 +165,10 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {devices/ipin.sym} 460 -560 0 0 {name=p1 lab=A }
+C {ipin.sym} 460 -560 0 0 {name=p1 lab=A }
 C {lab_pin.sym} 790 -390 0 1 {name=l4 sig_type=std_logic lab=B}
-C {devices/ipin.sym} 830 -680 0 1 {name=p2 lab=D}
-C {devices/ipin.sym} 830 -560 0 1 {name=p3 lab=C}
+C {ipin.sym} 830 -680 0 1 {name=p2 lab=D}
+C {ipin.sym} 830 -560 0 1 {name=p3 lab=C}
 C {lab_pin.sym} 500 -260 0 0 {name=l5 sig_type=std_logic lab=C}
 C {lab_pin.sym} 790 -260 0 1 {name=l6 sig_type=std_logic lab=D}
 C {lab_pin.sym} 500 -390 0 0 {name=l7 sig_type=std_logic lab=A}

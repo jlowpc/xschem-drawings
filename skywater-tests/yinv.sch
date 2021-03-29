@@ -17,10 +17,10 @@ N 170 -50 170 40 { lab=A}
 N 220 -10 300 -10 { lab=Z}
 N 220 -100 220 -80 { lab=VCCPIN}
 N 220 70 220 90 { lab=VSSPIN}
-C {devices/ipin.sym} 150 -50 0 0 {name=p58 lab=A }
-C {devices/opin.sym} 300 -10 0 0 {name=p59 lab=Z }
-C {devices/lab_pin.sym} 220 -100 0 0 {name=l1 sig_type=std_logic lab=VCCPIN}
-C {devices/lab_pin.sym} 220 90 0 0 {name=l2 sig_type=std_logic lab=VSSPIN}
+C {ipin.sym} 150 -50 0 0 {name=p58 lab=A }
+C {opin.sym} 300 -10 0 0 {name=p59 lab=Z }
+C {lab_pin.sym} 220 -100 0 0 {name=l1 sig_type=std_logic lab=VCCPIN}
+C {lab_pin.sym} 220 90 0 0 {name=l2 sig_type=std_logic lab=VSSPIN}
 C {yxt_title.sym} 220 140 0 0 {name=l3 author="Joanne Low" note="Circuits created by Openram"}
 C {nfet3_01v8.sym} 200 40 0 0 {name=M1
 L=L_N
