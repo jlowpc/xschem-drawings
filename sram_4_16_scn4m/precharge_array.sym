@@ -1,7 +1,7 @@
 v {xschem version=2.9.9 file_version=1.2 }
 G {}
 K {type=subcircuit
-format="@name @@bl[0:4] @@br[0:4] @@en_bar @vdd precharge_array"
+format="@name @@bl[0] @@bl[1:4] @@br[0] @@br[1:4] @@en_bar @vdd precharge_array"
 template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd"
 extra=" prefix vdd"}
 V {}
