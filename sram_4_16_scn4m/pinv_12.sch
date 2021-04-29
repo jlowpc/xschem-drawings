@@ -19,7 +19,7 @@ C {devices/ipin.sym} 60 -130 0 0 {name=p1900 lab=A }
 C {devices/opin.sym} 220 -80 0 0 {name=p1901 lab=Z }
 C {devices/iopin.sym} 150 -180 0 0 {name=p1902 lab=vdd }
 C {devices/iopin.sym} 150 20 0 0 {name=p1903 lab=gnd }
-C {xschem_sky130/sky130_fd_pr/nfet3_01v8.sym} 130 -40 0 0 {name=M2
+C {nfet3_01v8.sym} 130 -40 0 0 {name=M2
 L=0.4
 W=0.8
 body=gnd
@@ -34,7 +34,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {xschem_sky130/sky130_fd_pr/pfet3_01v8.sym} 130 -130 0 0 {name=M3
+C {pfet3_01v8.sym} 130 -130 0 0 {name=M3
 L=0.4
 W=1.6
 body=vdd
