@@ -1,0 +1,30 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@bl[0:7] @@br[0:7] @@sel[0:3] @@bl_out[0:1] @@br_out[0:1] @vdd @gnd column_mux_array"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 -220 -90 790 -90 {}
+L 4 -220 30 790 30 {}
+L 4 -220 -90 -220 30 {}
+L 4 790 -90 790 30 {}
+L 7 50 -90 50 -70 {}
+L 7 -220 -40 -200 -40 {}
+L 7 370 -90 370 -70 {}
+L 7 120 10 120 30 {}
+L 7 500 10 500 30 {}
+B 5 47.5 -92.5 52.5 -87.5 {name=bl[0:7] dir=inout }
+B 5 -222.5 -42.5 -217.5 -37.5 {name=sel[0:3] dir=inout }
+B 5 367.5 -92.5 372.5 -87.5 {name=br[0:7] dir=inout }
+B 5 117.5 27.5 122.5 32.5 {name=bl_out[0:1] dir=inout }
+B 5 497.5 27.5 502.5 32.5 {name=br_out[0:1] dir=inout }
+T {bl[0:7]} 64 -45 1 1 0.2 0.2 {}
+T {sel[0:3]} -205 -54 0 1 0.2 0.2 {}
+T {@symname} -210 -110 0 0 0.4 0.4 {}
+T {@name} 730 -110 0 0 0.4 0.4 {}
+T {br[0:7]} 356 -85 3 1 0.2 0.2 {}
+T {bl_out[0:1]} 106 -35 3 1 0.2 0.2 {}
+T {br_out[0:1]} 486 -35 3 1 0.2 0.2 {}

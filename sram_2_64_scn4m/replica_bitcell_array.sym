@@ -1,0 +1,39 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@rbl_bl[0] @@rbl_br[0] @@bl[0:7] @@br[0:7] @@wl[0:15] @vdd @gnd replica_bitcell_array"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 590 -190 590 520 {}
+L 4 590 520 2180 520 {}
+L 4 2180 -190 2180 520 {}
+L 4 590 -190 2180 -190 {}
+L 4 590 380 640 380 {}
+L 4 590 250 640 250 {}
+L 4 590 110 640 110 {}
+L 4 590 -90 640 -90 {}
+L 4 2130 -90 2180 -90 {}
+L 4 2130 250 2180 250 {}
+B 5 587.5 -92.5 592.5 -87.5 {name=rbl_bl[0]
+dir=inout}
+B 5 2177.5 -92.5 2182.5 -87.5 {name=rbl_br[0]
+dir=inout}
+B 5 587.5 247.5 592.5 252.5 {name=bl[0:7]
+dir=inout}
+B 5 2177.5 247.5 2182.5 252.5 {name=br[0:7]
+dir=inout}
+B 5 587.5 107.5 592.5 112.5 {name=rbl_wl[0]
+dir=inout}
+B 5 587.5 377.5 592.5 382.5 {name=wl[0:15]
+dir=inout}
+T {@symname} 620 -206 0 0 0.3 0.3 {hcenter=true}
+T {@name} 2155 -202 0 0 0.2 0.2 {}
+T {br[0:7]} 2050 240 0 0 0.4 0.4 {}
+T {bl[0:7]} 670 240 0 0 0.4 0.4 {}
+T {wl[0:15]} 660 370 0 0 0.4 0.4 {}
+T {rbl_wl[0]} 660 100 0 0 0.4 0.4 {}
+T {rbl_bl[0]} 650 -110 0 0 0.4 0.4 {}
+T {rbl_br[0]} 2030 -100 0 0 0.4 0.4 {}

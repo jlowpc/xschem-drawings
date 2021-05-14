@@ -1,0 +1,33 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@in_0 @@in_1 @@out_0 @@out_1 @@out_2 @@out_3 @vdd @gnd hierarchical_predecode2x4_0"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 -210 30 200 30 {}
+L 4 -210 -50 -190 -50 {}
+L 4 -210 10 -190 10 {}
+L 4 180 -50 200 -50 {}
+L 4 180 -30 200 -30 {}
+L 4 180 -10 200 -10 {}
+L 4 180 10 200 10 {}
+L 4 -210 -60 -210 30 {}
+L 4 200 -60 200 30 {}
+L 4 -210 -60 200 -60 {}
+B 5 -212.5 -52.5 -207.5 -47.5 {name=in_0 dir=in }
+B 5 -212.5 7.5 -207.5 12.5 {name=in_1 dir=in }
+B 5 197.5 -52.5 202.5 -47.5 {name=out_0 dir=out }
+B 5 197.5 -32.5 202.5 -27.5 {name=out_1 dir=out }
+B 5 197.5 -12.5 202.5 -7.5 {name=out_2 dir=out }
+B 5 197.5 7.5 202.5 12.5 {name=out_3 dir=out }
+T {@symname} -110 -76 0 0 0.3 0.3 {hcenter=true}
+T {@name} 145 -72 0 0 0.2 0.2 {}
+T {in_0} -185 -54 0 0 0.2 0.2 {}
+T {in_1} -185 6 0 0 0.2 0.2 {}
+T {out_0} 175 -54 0 1 0.2 0.2 {}
+T {out_1} 175 -34 0 1 0.2 0.2 {}
+T {out_2} 175 -14 0 1 0.2 0.2 {}
+T {out_3} 175 6 0 1 0.2 0.2 {}

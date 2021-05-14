@@ -1,0 +1,19 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@A @@Z @vdd @gnd pinv_6"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 -30 10 -10 10 {}
+L 4 28 10 50 10 {}
+L 4 -10 -10 -10 30 {}
+L 4 -10 -10 20 10 {}
+L 4 -10 30 20 10 {}
+B 5 -32.5 7.5 -27.5 12.5 {name=A dir=in }
+B 5 47.5 7.5 52.5 12.5 {name=Z dir=out }
+A 4 24 10 3.605551275463989 326.3099324740202 360 {}
+T {@symname} 20 34 0 0 0.3 0.3 {hcenter=true}
+T {@name} -15 -22 0 0 0.2 0.2 {}
