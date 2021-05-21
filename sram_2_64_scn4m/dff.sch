@@ -82,7 +82,7 @@ N 960 -550 1020 -550 { lab=#net6}
 N 1060 -600 1280 -600 { lab=Q}
 N 1220 -600 1220 -230 { lab=Q}
 N 190 -840 850 -840 { lab=vdd}
-N 520 -50 1060 -50 { lab=vdd}
+N 520 -50 1060 -50 { lab=gnd}
 N 520 -840 520 -700 { lab=vdd}
 N 850 -840 1060 -840 { lab=vdd}
 N 1060 -840 1060 -710 { lab=vdd}
@@ -294,7 +294,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {nfet3_01v8.sym} 170 -500 0 0 {name=M1
+C {nfet3_01v8.sym} 170 -500 0 0 {name=M1012
 L=0.4
 W=2
 body=gnd
@@ -429,7 +429,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {nfet3_01v8.sym} 830 -500 0 0 {name=M2
+C {nfet3_01v8.sym} 830 -500 0 0 {name=M1017
 L=0.4
 W=2
 body=gnd
