@@ -72,263 +72,119 @@ C {devices/iopin.sym} 440 -300 0 1 {name=p1519 lab=din }
 C {devices/iopin.sym} 1180 -500 3 0 {name=p1520 lab=bl }
 C {devices/iopin.sym} 1350 -500 3 0 {name=p1521 lab=br }
 C {devices/iopin.sym} 440 -50 0 1 {name=p1522 lab=en }
-C {nfet3_01v8.sym} 510 -190 0 0 {name=M_1
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 510 -190 0 0 {name=M_1
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
-C {pfet3_01v8.sym} 510 -300 0 0 {name=M_2
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 510 -300 0 0 {name=M_2
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
 C {devices/lab_wire.sym} 620 -230 0 0 {name=l1 sig_type=std_logic lab=din_bar}
 C {devices/lab_pin.sym} 530 -350 0 0 {name=l2 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 530 -140 0 0 {name=l3 sig_type=std_logic lab=gnd}
-C {pfet3_01v8.sym} 530 -50 0 0 {name=M_6
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 530 -50 0 0 {name=M_6
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
-C {pfet3_01v8.sym} 700 -50 0 0 {name=M_5
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 700 -50 0 0 {name=M_5
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
-C {nfet3_01v8.sym} 620 50 0 0 {name=M_3
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 620 50 0 0 {name=M_3
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
-C {nfet3_01v8.sym} 620 150 0 0 {name=M_4
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 620 150 0 0 {name=M_4
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
 C {devices/lab_pin.sym} 640 200 0 0 {name=l4 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 550 -100 0 0 {name=l5 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 720 -100 0 0 {name=l6 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 660 0 0 0 {name=l7 sig_type=std_logic lab=din_bar_gated}
-C {nfet3_01v8.sym} 850 70 0 0 {name=M_7
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 850 70 0 0 {name=M_7
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
-C {pfet3_01v8.sym} 850 -40 0 0 {name=M_8
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 850 -40 0 0 {name=M_8
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
 C {devices/lab_pin.sym} 870 -90 0 0 {name=l8 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 870 120 0 0 {name=l9 sig_type=std_logic lab=gnd}
 C {devices/lab_wire.sym} 1000 10 0 0 {name=l10 sig_type=std_logic lab=din_bar_gated_bar}
-C {pfet3_01v8.sym} 620 -430 0 0 {name=M_9
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 620 -430 0 0 {name=M_9
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
-C {pfet3_01v8.sym} 790 -430 0 0 {name=M_12
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 790 -430 0 0 {name=M_12
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
-C {nfet3_01v8.sym} 710 -330 0 0 {name=M_10
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 710 -330 0 0 {name=M_10
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
-C {nfet3_01v8.sym} 710 -230 0 0 {name=M_11
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 710 -230 0 0 {name=M_11
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
 C {devices/lab_pin.sym} 730 -180 0 0 {name=l11 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 640 -480 0 0 {name=l12 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 810 -480 0 0 {name=l13 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 710 -380 0 0 {name=l14 sig_type=std_logic lab=din_gated}
-C {nfet3_01v8.sym} 930 -290 0 0 {name=M_14
-L=0.4
-W=1.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 930 -290 0 0 {name=M_14
+model=n substrate=gnd
+l=0.4u
+w=1.4u
+m=1
 }
-C {pfet3_01v8.sym} 930 -400 0 0 {name=M_13
-L=0.4
-W=1.4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 930 -400 0 0 {name=M_13
+model=p substrate=vdd
+l=0.4u
+w=1.4u
+m=1
 }
 C {devices/lab_pin.sym} 950 -450 0 0 {name=l15 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 950 -240 0 0 {name=l16 sig_type=std_logic lab=gnd}
 C {devices/lab_wire.sym} 1050 -350 0 1 {name=l17 sig_type=std_logic lab=din_gated_bar}
 C {devices/lab_pin.sym} 560 -430 0 0 {name=l18 sig_type=std_logic lab=en}
-C {nfet3_01v8.sym} 1160 -350 0 0 {name=M_15
-L=0.4
-W=2.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 1160 -350 0 0 {name=M_15
+model=n substrate=gnd
+l=0.4u
+w=2.4u
+m=1
 }
-C {nfet3_01v8.sym} 1330 10 0 0 {name=M_16
-L=0.4
-W=2.4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 1330 10 0 0 {name=M_16
+model=n substrate=gnd
+l=0.4u
+w=2.4u
+m=1
 }
 C {devices/lab_pin.sym} 1180 -300 0 0 {name=l19 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 1350 60 0 0 {name=l20 sig_type=std_logic lab=gnd}

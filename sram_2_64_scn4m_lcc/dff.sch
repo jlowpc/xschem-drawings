@@ -82,7 +82,7 @@ N 960 -550 1020 -550 { lab=#net6}
 N 1060 -600 1280 -600 { lab=Q}
 N 1220 -600 1220 -230 { lab=Q}
 N 190 -840 850 -840 { lab=vdd}
-N 520 -50 1060 -50 { lab=vdd}
+N 520 -50 1060 -50 { lab=gnd}
 N 520 -840 520 -700 { lab=vdd}
 N 850 -840 1060 -840 { lab=vdd}
 N 1060 -840 1060 -710 { lab=vdd}
@@ -91,187 +91,22 @@ N 1100 -300 1150 -300 { lab=clk}
 N 1100 -200 1170 -200 { lab=a_24_24#}
 N 560 -200 610 -200 { lab=clk}
 N 560 -300 630 -300 { lab=a_24_24#}
-C {pfet3_01v8.sym} 170 -690 0 0 {name=M1002
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {pfet3_01v8.sym} 170 -780 0 0 {name=M1001
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/ipin.sym} 40 -780 0 0 {name=p1 lab=D}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 190 -440 0 0 {name=l2 sig_type=std_logic lab=gnd}
-C {pfet3_01v8.sym} 170 -340 0 0 {name=M1000
-L=0.4
-W=8
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 190 -400 0 0 {name=l3 sig_type=std_logic lab=vdd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 190 -180 0 0 {name=l4 sig_type=std_logic lab=gnd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/ipin.sym} 40 -340 0 0 {name=p5 lab=clk}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 260 -290 0 0 {name=l5 sig_type=std_logic lab=a_24_24#}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 140 -690 0 0 {name=l6 sig_type=std_logic lab=clk}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 140 -590 0 0 {name=l7 sig_type=std_logic lab=a_24_24#}
-C {pfet3_01v8.sym} 500 -640 0 0 {name=M1005
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 520 -480 0 0 {name=l9 sig_type=std_logic lab=gnd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 600 -590 0 0 {name=l10 sig_type=std_logic lab=a_152_16#}
-C {pfet3_01v8.sym} 540 -300 0 1 {name=M1003
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {pfet3_01v8.sym} 540 -390 0 1 {name=M1004
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 520 -450 0 1 {name=l11 sig_type=std_logic lab=vdd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 520 -50 0 1 {name=l12 sig_type=std_logic lab=gnd}
-C {pfet3_01v8.sym} 830 -690 0 0 {name=M1007
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {pfet3_01v8.sym} 830 -780 0 0 {name=M1006
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 850 -440 0 0 {name=l14 sig_type=std_logic lab=gnd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 800 -690 0 0 {name=l16 sig_type=std_logic lab=a_24_24#}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 800 -590 0 0 {name=l17 sig_type=std_logic lab=clk}
-C {pfet3_01v8.sym} 1040 -650 0 0 {name=M1011
-L=0.4
-W=8
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 1060 -490 0 0 {name=l18 sig_type=std_logic lab=gnd}
-C {pfet3_01v8.sym} 1080 -300 0 1 {name=M1008
-L=0.4
-W=2
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
-C {pfet3_01v8.sym} 1080 -390 0 1 {name=M1009
-L=0.4
-W=2
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
-}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 1060 -450 0 1 {name=l20 sig_type=std_logic lab=vdd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_pin.sym} 1060 -50 0 1 {name=l21 sig_type=std_logic lab=gnd}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/opin.sym} 1280 -600 0 0 {name=p2 lab=Q}
@@ -279,170 +114,27 @@ C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 1160 -200 0 0 {name=l8 sig_type=std_logic lab=a_24_24#}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 600 -200 0 0 {name=l13 sig_type=std_logic lab=clk}
 C {C:/Program Files/Xschem/bin/../share/../xschem_library/devices/lab_wire.sym} 620 -300 0 0 {name=l15 sig_type=std_logic lab=a_24_24#}
-C {nfet3_01v8.sym} 170 -590 0 0 {name=M1013
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 170 -500 0 0 {name=M1
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 170 -240 0 0 {name=M1010
-L=0.4
-W=4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 500 -540 0 0 {name=M1016
-L=0.4
-W=4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 540 -200 0 1 {name=M1014
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 540 -110 0 1 {name=M1015
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 1080 -110 0 1 {name=M1020
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 1080 -200 0 1 {name=M1019
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 1040 -550 0 0 {name=M1021
-L=0.4
-W=4
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 830 -590 0 0 {name=M1018
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {nfet3_01v8.sym} 830 -500 0 0 {name=M2
-L=0.4
-W=2
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
 C {devices/lab_pin.sym} 460 -840 1 0 {name=l19 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 830 -50 1 1 {name=l22 sig_type=std_logic lab=gnd}
+C {devices/nmos-sub.sym} 170 -590 0 0 {name=M1013 model=n substrate=gnd w=5u l=0.18u m=1}
+C {devices/nmos-sub.sym} 170 -500 0 0 {name=M1012 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/pmos-sub.sym} 170 -780 0 0 {name=M1001 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/pmos-sub.sym} 170 -690 0 0 {name=M1002 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/pmos-sub.sym} 170 -340 0 0 {name=M1000 model=p substrate=vdd w=8u l=0.4u m=1}
+C {devices/nmos-sub.sym} 170 -240 0 0 {name=M1010 model=n substrate=gnd w=4u l=0.4u m=1}
+C {devices/pmos-sub.sym} 500 -640 0 0 {name=M1005 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/nmos-sub.sym} 500 -540 0 0 {name=M1016 model=n substrate=gnd w=5u l=0.4u m=1}
+C {devices/pmos-sub.sym} 540 -390 0 1 {name=M1004 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/pmos-sub.sym} 540 -300 0 1 {name=M1003 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/nmos-sub.sym} 540 -200 0 1 {name=M1014 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/nmos-sub.sym} 540 -110 0 1 {name=M1015 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/pmos-sub.sym} 830 -780 0 0 {name=M1006 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/pmos-sub.sym} 830 -690 0 0 {name=M1007 model=p substrate=vdd w=4u l=0.4u m=1}
+C {devices/nmos-sub.sym} 830 -590 0 0 {name=M1018 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/nmos-sub.sym} 830 -500 0 0 {name=M1017 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/nmos-sub.sym} 1040 -550 0 0 {name=M1021 model=n substrate=gnd w=4u l=0.4u m=1}
+C {devices/pmos-sub.sym} 1040 -650 0 0 {name=M1011 model=p substrate=vdd w=8u l=0.4u m=1}
+C {devices/nmos-sub.sym} 1080 -110 0 1 {name=M1020 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/nmos-sub.sym} 1080 -200 0 1 {name=M1019 model=n substrate=gnd w=2u l=0.4u m=1}
+C {devices/pmos-sub.sym} 1080 -390 0 1 {name=M1009 model=p substrate=vdd w=2u l=0.4u m=1}
+C {devices/pmos-sub.sym} 1080 -300 0 1 {name=M1008 model=p substrate=vdd w=2u l=0.4u m=1}
