@@ -1,0 +1,27 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@bl @@br @@dout @@en @vdd @gnd sense_amp"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 -440 -60 150 -60 {}
+L 4 -440 -60 -440 60 {}
+L 4 150 -60 150 60 {}
+L 4 -440 60 150 60 {}
+L 7 -340 -60 -340 -40 {}
+L 7 40 -60 40 -40 {}
+L 7 130 20 150 20 {}
+L 7 -440 0 -420 0 {}
+B 5 -342.5 -62.5 -337.5 -57.5 {name=bl dir=inout }
+B 5 37.5 -62.5 42.5 -57.5 {name=br dir=inout }
+B 5 147.5 17.5 152.5 22.5 {name=dout dir=inout }
+B 5 -442.5 -2.5 -437.5 2.5 {name=en dir=inout }
+T {@symname} -410 -76 0 0 0.3 0.3 {hcenter=true}
+T {@name} 125 -72 0 0 0.2 0.2 {}
+T {bl} -344 -35 3 1 0.2 0.2 {}
+T {br} 36 -35 3 1 0.2 0.2 {}
+T {dout} 125 16 0 1 0.2 0.2 {}
+T {en} -415 4 2 1 0.2 0.2 {}

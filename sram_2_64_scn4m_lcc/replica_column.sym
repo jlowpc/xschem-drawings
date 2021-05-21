@@ -1,0 +1,25 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @vdd @gnd @symname"
+template="name=x1 vdd=vdd gnd=gnd"
+extra="vdd gnd"
+}
+V {}
+S {}
+E {}
+L 4 -130 -80 -110 -80 {}
+L 4 -130 -40 -110 -40 {}
+L 4 -130 -20 -110 -20 {}
+L 4 -130 -90 40 -90 {}
+L 4 -130 330 40 330 {}
+L 4 -130 -90 -130 330 {}
+L 4 40 -90 40 330 {}
+B 5 -132.5 -82.5 -127.5 -77.5 {name=p_en_bar dir=in }
+B 5 -132.5 -42.5 -127.5 -37.5 {name=wl[0:18] dir=in }
+B 5 -132.5 -22.5 -127.5 -17.5 {name=rbl_bl dir=out }
+T {@symname} -81 104 0 0 0.3 0.3 {}
+T {@name} 15 -102 0 0 0.2 0.2 {}
+T {p_en_bar} -105 -84 0 0 0.2 0.2 {}
+T {wl[0:18]} -105 -44 0 0 0.2 0.2 {}
+T {rbl_bl} -105 -24 0 0 0.2 0.2 {}

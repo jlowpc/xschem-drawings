@@ -1,0 +1,27 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @@din @@bl @@br @@en @vdd @gnd write_driver"
+template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
+extra=" prefix vdd gnd"}
+V {}
+S {}
+E {}
+L 4 -860 -100 130 -100 {}
+L 4 -860 -100 -860 60 {}
+L 4 130 -100 130 60 {}
+L 4 -860 60 130 60 {}
+L 7 -860 -50 -840 -50 {}
+L 7 110 -70 130 -70 {}
+L 7 110 10 130 10 {}
+L 7 -860 10 -840 10 {}
+B 5 -862.5 -52.5 -857.5 -47.5 {name=din dir=inout }
+B 5 127.5 -72.5 132.5 -67.5 {name=bl dir=inout }
+B 5 127.5 7.5 132.5 12.5 {name=br dir=inout }
+B 5 -862.5 7.5 -857.5 12.5 {name=en dir=inout }
+T {@symname} -830 -116 0 0 0.3 0.3 {hcenter=true}
+T {@name} 105 -112 0 0 0.2 0.2 {}
+T {din} -835 -54 0 0 0.2 0.2 {}
+T {bl} 105 -74 0 1 0.2 0.2 {}
+T {br} 105 6 0 1 0.2 0.2 {}
+T {en} -835 6 0 0 0.2 0.2 {}
