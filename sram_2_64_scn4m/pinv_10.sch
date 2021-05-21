@@ -2,8 +2,8 @@ v {xschem version=2.9.9 file_version=1.2 }
 G {}
 K {type=subcircuit
 format="@name @@A @@Z @vdd @gnd pinv_10"
-template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
-extra=" prefix vdd gnd"
+template="name=x1 vdd=vdd gnd=gnd"
+extra="vdd gnd"
 }
 V {}
 S {}
@@ -14,11 +14,9 @@ N -20 -70 30 -70 { lab=A}
 N 0 20 30 20 { lab=A}
 N 0 -70 0 20 { lab=A}
 N 70 -120 70 -100 { lab=vdd}
-N 70 50 70 80 { lab=gnd}
+N 70 50 70 80 { lab=vdd}
 C {devices/ipin.sym} -20 -70 0 0 {name=p1900 lab=A }
 C {devices/opin.sym} 140 -20 0 0 {name=p1901 lab=Z }
-C {devices/iopin.sym} 70 -120 0 0 {name=p1902 lab=vdd }
-C {devices/iopin.sym} 70 80 0 0 {name=p1903 lab=gnd }
 C {nfet3_01v8.sym} 50 20 0 0 {name=Mpinv_nmos
 L=0.4
 W=0.8
@@ -49,3 +47,5 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
+C {devices/lab_pin.sym} 70 -120 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 70 80 0 0 {name=l2 sig_type=std_logic lab=gnd}

@@ -2,8 +2,8 @@ v {xschem version=2.9.9 file_version=1.2 }
 G {}
 K {type=subcircuit
 format="@name @@A @@B @@C @@D @@Z @vdd @gnd pnand4"
-template="name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd"
-extra=" prefix vdd gnd"}
+template="name=x1 vdd=vdd gnd=gnd"
+extra="vdd gnd"}
 V {}
 S {}
 E {}
@@ -27,7 +27,7 @@ N 100 -180 190 -180 { lab=B}
 N 390 -450 390 -270 { lab=C}
 N 190 -180 530 -180 { lab=B}
 N 230 -230 230 -210 { lab=#net2}
-N 230 -70 230 -50 { lab=gnd}
+N 230 -70 230 -50 { lab=vdd}
 N 430 -490 430 -480 { lab=vdd}
 N 230 -150 230 -130 { lab=#net3}
 N 190 -270 390 -270 { lab=C}
@@ -38,8 +38,6 @@ C {devices/ipin.sym} 100 -270 0 0 {name=p78 lab=C }
 C {devices/ipin.sym} 100 -450 0 0 {name=p53 lab=A }
 C {devices/ipin.sym} 100 -180 0 0 {name=p54 lab=B }
 C {devices/opin.sym} 660 -420 0 0 {name=p55 lab=Z }
-C {devices/iopin.sym} 210 -500 3 0 {name=p56 lab=vdd }
-C {devices/iopin.sym} 230 -60 1 0 {name=p57 lab=gnd }
 C {nfet3_01v8.sym} 210 -360 0 0 {name=Mpnand4_nmos1
 L=0.4
 W=1.6
@@ -160,3 +158,5 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
+C {devices/lab_pin.sym} 210 -510 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 230 -50 0 0 {name=l2 sig_type=std_logic lab=gnd}

@@ -50,7 +50,7 @@ N 1780 30 1880 30 { lab=out_3}
 N 1780 50 1880 50 { lab=out_6}
 N 1090 -1030 1140 -1030 { lab=addr[0]}
 N 1090 -950 1140 -950 { lab=addr[1]}
-N 1090 -700 1140 -700 { lab=addr[0]}
+N 1090 -700 1140 -700 { lab=addr[2]}
 N 1090 -640 1140 -640 { lab=addr[1]}
 N 1550 -1030 1600 -1030 { lab=out_0}
 N 1550 -950 1600 -950 { lab=out_1}
@@ -135,8 +135,8 @@ C {devices/lab_pin.sym} 1780 130 0 0 {name=p474 lab=out_7 }
 C {and2_dec.sym} 1920 200 0 0 {name=xDEC_AND_15 vdd=vdd gnd=gnd}
 C {devices/bus_connect.sym} 1080 -1040 1 0 {name=l1 lab=addr[0]}
 C {devices/bus_connect.sym} 1080 -960 1 0 {name=l2 lab=addr[1]}
-C {devices/bus_connect.sym} 1080 -710 1 0 {name=l3 lab=addr[0]}
-C {devices/bus_connect.sym} 1080 -650 1 0 {name=l4 lab=addr[1]}
+C {devices/bus_connect.sym} 1080 -710 1 0 {name=l3 lab=addr[2]}
+C {devices/bus_connect.sym} 1080 -650 1 0 {name=l4 lab=addr[3]}
 C {devices/lab_wire.sym} 1600 -950 0 1 {name=l5 lab=out_1}
 C {devices/lab_wire.sym} 1600 -870 0 1 {name=l6 lab=out_2}
 C {devices/lab_wire.sym} 1600 -780 0 1 {name=l7 lab=out_3}

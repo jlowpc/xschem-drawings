@@ -21,4 +21,4 @@ C {devices/lab_wire.sym} -40 0 0 1 {name=l1806 lab=Zb2_int }
 C {pinv_7.sym} -80 70 0 0 {name=xbuf_inv2 }
 C {devices/lab_wire.sym} 120 0 0 1 {name=l1810 lab=Zb3_int }
 C {pinv_8.sym} 50 0 0 0 {name=xbuf_inv3 }
-C {pinv_9.sym} 220 -10 0 0 {name=xbuf_inv4 }
+C {pinv_9.sym} 220 0 0 0 {name=xbuf_inv4 }

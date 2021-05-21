@@ -12,7 +12,7 @@ E {}
 N -160 -10 -120 -10 { lab=A}
 N -160 10 -120 10 { lab=B}
 N -20 0 40 0 { lab=zb_int}
-N 120 0 140 0 { lab=Z}
+N 110 0 140 0 { lab=Z}
 C {devices/ipin.sym} -160 -10 0 0 {name=p1740 lab=A }
 C {devices/ipin.sym} -160 10 0 0 {name=p1741 lab=B }
 C {devices/opin.sym} 140 0 0 0 {name=p1742 lab=Z }

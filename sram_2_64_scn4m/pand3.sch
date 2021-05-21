@@ -12,7 +12,7 @@ N -180 -50 -150 -50 { lab=A}
 N -180 -30 -150 -30 { lab=B}
 N -180 -10 -150 -10 { lab=C}
 N 10 -30 80 -30 { lab=zb_int}
-N 160 -30 230 -30 { lab=Z}
+N 150 -30 230 -30 { lab=Z}
 C {devices/ipin.sym} -180 -50 0 0 {name=p1849 lab=A }
 C {devices/ipin.sym} -180 -30 0 0 {name=p1850 lab=B }
 C {devices/ipin.sym} -180 -10 0 0 {name=p1851 lab=C }
