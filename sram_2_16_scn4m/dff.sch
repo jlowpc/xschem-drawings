@@ -91,20 +91,10 @@ N 1100 -300 1150 -300 { lab=clk}
 N 1100 -200 1170 -200 { lab=a_24_24#}
 N 560 -200 610 -200 { lab=clk}
 N 560 -300 630 -300 { lab=a_24_24#}
-C {devices/pmos-sub.sym} 170 -690 0 0 {name=M1002
-L=0.4
-W=4
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 170 -690 0 0 {name=M1002 model=p substrate=vdd
+L=0.4u
+W=4u
+m=1
 }
 C {devices/pmos-sub.sym} 170 -780 0 0 {name=M1001 model=p substrate=vdd
 L=0.4u
