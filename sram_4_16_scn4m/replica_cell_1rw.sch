@@ -40,95 +40,35 @@ N 700 -10 700 140 { lab=vdd}
 C {devices/iopin.sym} 410 -10 0 1 {name=p729 lab=bl }
 C {devices/iopin.sym} 840 -10 0 0 {name=p730 lab=br }
 C {devices/iopin.sym} 410 -140 0 1 {name=p731 lab=wl }
-C {nfet3_01v8.sym} 500 -30 1 0 {name=M1004
-L=0.4
-W=0.8
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 500 -30 1 0 {name=M1004 model=n substrate=gnd
+L=0.4u
+W=0.8u
+m=1
 }
-C {pfet3_01v8.sym} 620 -60 0 0 {name=M1001
-L=0.8
-W=0.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 620 -60 0 0 {name=M1001 model=p substrate=vdd
+L=0.8u
+W=0.6u
+m=1
 }
-C {nfet3_01v8.sym} 620 40 0 0 {name=M1003
-L=0.4
-W=1.6
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 620 40 0 0 {name=M1003 model=n substrate=gnd
+L=0.4u
+W=1.6u
+m=1
 }
-C {nfet3_01v8.sym} 660 240 0 1 {name=M1002
-L=0.4
-W=1.6
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 660 240 0 1 {name=M1002 model=n substrate=gnd
+L=0.4u
+W=1.6u
+m=1
 }
-C {pfet3_01v8.sym} 660 140 0 1 {name=M1000
-L=0.8
-W=0.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 660 140 0 1 {name=M1000 model=p substrate=vdd
+L=0.8u
+W=0.6u
+m=1
 }
-C {nfet3_01v8.sym} 760 -30 1 0 {name=M1005
-L=0.4
-W=0.8
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 760 -30 1 0 {name=M1005 model=n substrate=gnd
+L=0.4u
+W=0.8u
+m=1
 }
 C {devices/lab_pin.sym} 640 80 0 0 {name=l1 sig_type=std_logic lab=gnd}
 C {devices/lab_pin.sym} 640 100 0 1 {name=l2 sig_type=std_logic lab=vdd}

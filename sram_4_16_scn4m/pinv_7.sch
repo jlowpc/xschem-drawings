@@ -17,35 +17,15 @@ N 30 -60 30 -40 { lab=vdd}
 N 30 110 30 130 { lab=gnd}
 C {devices/ipin.sym} -40 -10 0 0 {name=p58 lab=A }
 C {devices/opin.sym} 110 30 0 0 {name=p59 lab=Z }
-C {nfet3_01v8.sym} 10 80 0 0 {name=Mpinv_nmos
-L=0.4
-W=2.4
-body=gnd
-nf=1
-mult=2
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {nfet3_01v8.sym} 10 80 0 0 {name=Mpinv_nmos model=n substrate=gnd
+L=0.4u
+W=2.4u
+m=2
 }
-C {pfet3_01v8.sym} 10 -10 0 0 {name=Mp_inv_pmos
-L=0.4
-W=4.8
-body=vdd
-nf=1
-mult=2
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 10 -10 0 0 {name=Mp_inv_pmos model=p substrate=vdd
+L=0.4u
+W=4.8u
+m=2
 }
 C {devices/lab_pin.sym} 30 -60 0 0 {name=l1 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 30 130 0 0 {name=l2 sig_type=std_logic lab=gnd}

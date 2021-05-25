@@ -34,94 +34,34 @@ C {devices/ipin.sym} -120 70 0 0 {name=p54 lab=B }
 C {devices/opin.sym} 320 -80 0 0 {name=p55 lab=Z }
 C {devices/iopin.sym} -10 -160 3 0 {name=p56 lab=vdd }
 C {devices/iopin.sym} 10 200 1 0 {name=p57 lab=gnd }
-C {nfet3_01v8.sym} -10 -20 0 0 {name=Mpnand3_nmos1
-L=0.4
-W=1.6
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} -10 -20 0 0 {name=Mpnand3_nmos1 model=n substrate=gnd
+L=0.4u
+W=1.6u
+m=1
 }
-C {pfet3_01v8.sym} -80 -110 0 0 {name=Mpnand3_pmos1
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} -80 -110 0 0 {name=Mpnand3_pmos1 model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=1
 }
-C {pfet3_01v8.sym} 70 -110 0 0 {name=Mpnand3_pmos3
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 70 -110 0 0 {name=Mpnand3_pmos3 model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=1
 }
-C {nfet3_01v8.sym} -10 70 0 0 {name=Mpnand3_nmos2
-L=0.4
-W=1.6
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} -10 70 0 0 {name=Mpnand3_nmos2 model=n substrate=gnd
+L=0.4u
+W=1.6u
+m=1
 }
-C {pfet3_01v8.sym} 190 -110 0 0 {name=Mpnand3_pmos2
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 190 -110 0 0 {name=Mpnand3_pmos2 model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=1
 }
-C {nfet3_01v8.sym} -10 160 0 0 {name=Mpnand3_nmos3
-L=0.4
-W=1.6
-body=gnd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} -10 160 0 0 {name=Mpnand3_nmos3 model=n substrate=gnd
+L=0.4u
+W=1.6u
+m=1
 }
 C {yxt_title.sym} -30 300 0 0 {name=l1 author="Joanne Low" note="Circuits created by Openram"}
