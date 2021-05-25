@@ -26,49 +26,19 @@ N 290 60 290 70 { lab=vdd}
 C {devices/opin.sym} 120 170 0 1 {name=p1468 lab=bl }
 C {devices/opin.sym} 460 170 0 0 {name=p1469 lab=br }
 C {devices/ipin.sym} 120 100 0 0 {name=p1470 lab=en_bar }
-C {pfet3_01v8.sym} 180 100 0 0 {name=Mupper_pmos1
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 180 100 0 0 {name=Mupper_pmos1 model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=1
 }
-C {pfet3_01v8.sym} 400 100 0 1 {name=Mupper_pmos2
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 400 100 0 1 {name=Mupper_pmos2 model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=1
 }
-C {pfet3_01v8.sym} 290 150 3 1 {name=Mlower_pmos
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 290 150 3 1 {name=Mlower_pmos model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=1
 }
 C {devices/lab_pin.sym} 290 60 0 0 {name=l1 sig_type=std_logic lab=vdd}

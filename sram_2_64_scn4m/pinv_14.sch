@@ -19,33 +19,13 @@ C {devices/ipin.sym} 60 -130 0 0 {name=p1900 lab=A }
 C {devices/opin.sym} 220 -80 0 0 {name=p1901 lab=Z }
 C {devices/iopin.sym} 150 -180 0 0 {name=p1902 lab=vdd }
 C {devices/iopin.sym} 150 20 0 0 {name=p1903 lab=gnd }
-C {nfet3_01v8.sym} 130 -40 0 0 {name=M2
-L=0.4
-W=2.4
-body=gnd
-nf=1
-mult=2
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 130 -40 0 0 {name=M2 model=n substrate=gnd
+L=0.4u
+W=2.4u
+m=2
 }
-C {pfet3_01v8.sym} 130 -130 0 0 {name=M3
-L=0.4
-W=4.8
-body=vdd
-nf=1
-mult=2
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 130 -130 0 0 {name=M3 model=p substrate=vdd
+L=0.4u
+W=4.8u
+m=2
 }

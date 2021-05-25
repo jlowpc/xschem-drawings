@@ -17,35 +17,15 @@ N 150 -180 150 -160 { lab=vdd}
 N 150 -10 150 20 { lab=vdd}
 C {devices/ipin.sym} 60 -130 0 0 {name=p1900 lab=A }
 C {devices/opin.sym} 220 -80 0 0 {name=p1901 lab=Z }
-C {nfet3_01v8.sym} 130 -40 0 0 {name=M2
-L=0.4
-W=0.8
-body=gnd
-nf=1
-mult=2
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
+C {devices/nmos-sub.sym} 130 -40 0 0 {name=M2 model=n substrate=gnd
+L=0.4u
+W=0.8u
+m=2
 }
-C {pfet3_01v8.sym} 130 -130 0 0 {name=M3
-L=0.4
-W=1.6
-body=vdd
-nf=1
-mult=2
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=pfet_01v8
-spiceprefix=X
+C {devices/pmos-sub.sym} 130 -130 0 0 {name=M3 model=p substrate=vdd
+L=0.4u
+W=1.6u
+m=2
 }
 C {devices/lab_pin.sym} 150 -180 0 0 {name=l1 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 150 20 0 0 {name=l2 sig_type=std_logic lab=gnd}
