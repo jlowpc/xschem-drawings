@@ -29,13 +29,13 @@ N 940 -600 970 -600 { lab=#net2}
 N 940 -90 970 -90 { lab=#net2}
 N 940 330 970 330 { lab=#net2}
 N 320 -1040 380 -1040 { lab=wl[0:18]}
-C {devices/opin.sym} 320 -600 0 1 {name=p1 lab=rbl_bl}
-C {devices/ipin.sym} 320 -720 0 0 {name=p3 lab=wl[0:18]}
+C {opin.sym} 320 -600 0 1 {name=p1 lab=rbl_bl}
+C {ipin.sym} 320 -720 0 0 {name=p3 lab=wl[0:18]}
 C {dummy_cell_1rw.sch} 120 -550 0 0 {name=Xrbc[0] vdd=vdd gnd=gnd}
 C {replica_cell_1rw.sch} 100 -80 0 0 {name=xrbc[1:17] vdd=vdd gnd=gnd}
 C {dummy_cell_1rw.sym} 700 310 0 0 {name=xrbc[18] vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 430 -720 0 0 {name=l1 lab=wl[0]}
-C {devices/bus_connect.sym} 430 -210 0 0 {name=l2 lab=wl[1:17]}
-C {devices/bus_connect.sym} 430 310 0 0 {name=l3 lab=wl[18]}
+C {bus_connect.sym} 430 -720 0 0 {name=l1 lab=wl[0]}
+C {bus_connect.sym} 430 -210 0 0 {name=l2 lab=wl[1:17]}
+C {bus_connect.sym} 430 310 0 0 {name=l3 lab=wl[18]}
 C {precharge_0.sch} 350 -1140 0 0 {name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/ipin.sym} 320 -1040 0 0 {name=p4 lab=p_en_bar}
+C {ipin.sym} 320 -1040 0 0 {name=p4 lab=p_en_bar}

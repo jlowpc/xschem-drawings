@@ -25,26 +25,26 @@ N 400 170 620 170 { lab=br}
 N 130 60 130 70 { lab=vdd}
 N 620 60 620 70 { lab=vdd}
 N 30 100 90 100 { lab=en_bar}
-C {devices/opin.sym} 130 250 3 1 {name=p1468 lab=bl }
-C {devices/opin.sym} 620 250 1 0 {name=p1469 lab=br }
-C {devices/ipin.sym} 30 100 0 0 {name=p1470 lab=en_bar }
-C {devices/pmos-sub.sym} 110 100 0 0 {name=Mupper_pmos1
+C {opin.sym} 130 250 3 1 {name=p1468 lab=bl }
+C {opin.sym} 620 250 1 0 {name=p1469 lab=br }
+C {ipin.sym} 30 100 0 0 {name=p1470 lab=en_bar }
+C {pmos-sub.sym} 110 100 0 0 {name=Mupper_pmos1
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 600 100 0 0 {name=Mupper_pmos2
+C {pmos-sub.sym} 600 100 0 0 {name=Mupper_pmos2
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 370 150 3 1 {name=Mlower_pmos
+C {pmos-sub.sym} 370 150 3 1 {name=Mlower_pmos
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/lab_pin.sym} 130 60 0 0 {name=l1 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 620 60 0 0 {name=l2 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 130 60 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 620 60 0 0 {name=l2 sig_type=std_logic lab=vdd}

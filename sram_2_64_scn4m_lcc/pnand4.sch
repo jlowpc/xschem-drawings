@@ -33,58 +33,58 @@ N 230 -150 230 -130 { lab=#net3}
 N 190 -270 390 -270 { lab=C}
 N 100 -270 190 -270 { lab=C}
 N 530 -450 530 -180 { lab=B}
-C {devices/ipin.sym} 100 -360 0 0 {name=p210 lab=D }
-C {devices/ipin.sym} 100 -270 0 0 {name=p78 lab=C }
-C {devices/ipin.sym} 100 -450 0 0 {name=p53 lab=A }
-C {devices/ipin.sym} 100 -180 0 0 {name=p54 lab=B }
-C {devices/opin.sym} 660 -420 0 0 {name=p55 lab=Z }
-C {devices/nmos-sub.sym} 210 -360 0 0 {name=Mpnand4_nmos1
+C {ipin.sym} 100 -360 0 0 {name=p210 lab=D }
+C {ipin.sym} 100 -270 0 0 {name=p78 lab=C }
+C {ipin.sym} 100 -450 0 0 {name=p53 lab=A }
+C {ipin.sym} 100 -180 0 0 {name=p54 lab=B }
+C {opin.sym} 660 -420 0 0 {name=p55 lab=Z }
+C {nmos-sub.sym} 210 -360 0 0 {name=Mpnand4_nmos1
 model=n substrate=gnd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 140 -450 0 0 {name=Mpnand3_pmos1
+C {pmos-sub.sym} 140 -450 0 0 {name=Mpnand3_pmos1
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 290 -450 0 0 {name=Mpnand4_pmos4
+C {pmos-sub.sym} 290 -450 0 0 {name=Mpnand4_pmos4
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 210 -270 0 0 {name=Mpnand4_nmos2
+C {nmos-sub.sym} 210 -270 0 0 {name=Mpnand4_nmos2
 model=n substrate=gnd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 410 -450 0 0 {name=Mpnand4_pmos3
+C {pmos-sub.sym} 410 -450 0 0 {name=Mpnand4_pmos3
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 210 -180 0 0 {name=Mpnand4_nmos3
+C {nmos-sub.sym} 210 -180 0 0 {name=Mpnand4_nmos3
 model=n substrate=gnd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 550 -450 0 0 {name=Mpnand4_pmos2
+C {pmos-sub.sym} 550 -450 0 0 {name=Mpnand4_pmos2
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 210 -100 0 0 {name=Mpnand4_nmos4
+C {nmos-sub.sym} 210 -100 0 0 {name=Mpnand4_nmos4
 model=n substrate=gnd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/lab_pin.sym} 210 -510 0 0 {name=l1 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 230 -50 0 0 {name=l2 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 210 -510 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 230 -50 0 0 {name=l2 sig_type=std_logic lab=gnd}

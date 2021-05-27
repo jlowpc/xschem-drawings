@@ -23,32 +23,32 @@ N -110 130 -30 130 { lab=A}
 N 10 160 10 170 { lab=vdd}
 N -60 -90 90 -90 { lab=vdd}
 N -10 -110 -10 -90 { lab=vdd}
-C {devices/ipin.sym} -120 -50 0 0 {name=p53 lab=A }
-C {devices/ipin.sym} -120 40 0 0 {name=p54 lab=B }
-C {devices/opin.sym} 150 -20 0 0 {name=p55 lab=Z }
-C {devices/nmos-sub.sym} -10 40 0 0 {name=Mpnand2_nmos1
+C {ipin.sym} -120 -50 0 0 {name=p53 lab=A }
+C {ipin.sym} -120 40 0 0 {name=p54 lab=B }
+C {opin.sym} 150 -20 0 0 {name=p55 lab=Z }
+C {nmos-sub.sym} -10 40 0 0 {name=Mpnand2_nmos1
 model=n substrate=gnd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} -80 -50 0 0 {name=Mpnand2_pmos1
+C {pmos-sub.sym} -80 -50 0 0 {name=Mpnand2_pmos1
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 70 -50 0 0 {name=Mpnand2_pmos2
+C {pmos-sub.sym} 70 -50 0 0 {name=Mpnand2_pmos2
 model=p substrate=vdd
 l=0.4u
 w=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} -10 130 0 0 {name=Mpnand2_nmos2
+C {nmos-sub.sym} -10 130 0 0 {name=Mpnand2_nmos2
 model=n substrate=gnd
 l=0.4u
 e=1.6u
 m=1
 }
-C {devices/lab_pin.sym} -10 -110 0 0 {name=l1 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 10 170 0 0 {name=l2 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} -10 -110 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 10 170 0 0 {name=l2 sig_type=std_logic lab=gnd}

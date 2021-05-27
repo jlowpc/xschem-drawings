@@ -31,13 +31,13 @@ N 140 -320 160 -320 {}
 C {hierarchical_predecode2x4.sch} 200 -40 0 0 {name=x2 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {dff.sym} 290 -360 0 0 {name=x3 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {dff.sym} 290 -240 0 0 {name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/ipin.sym} 90 -400 0 0 {name=p1 lab=addr[4:5]}
-C {devices/ipin.sym} 90 -200 0 0 {name=p2 lab=clk}
-C {devices/opin.sym} 740 -360 0 0 {name=p4 lab=sel[0:3]}
-C {devices/bus_connect.sym} 730 -360 3 0 {name=l1 lab=sel[0]}
-C {devices/bus_connect.sym} 730 -280 3 0 {name=l2 lab=sel[1]}
-C {devices/bus_connect.sym} 730 -200 3 0 {name=l3 lab=sel[2]}
-C {devices/bus_connect.sym} 730 -110 3 0 {name=l4 lab=sel[3]}
-C {devices/bus_connect.sym} 100 -400 1 0 {name=l5 lab=addr[4]}
-C {devices/bus_connect.sym} 100 -280 1 0 {name=l6 lab=addr[5]}
-C {devices/lab_pin.sym} 140 -320 0 0 {name=l7 sig_type=std_logic lab=clk}
+C {ipin.sym} 90 -400 0 0 {name=p1 lab=addr[4:5]}
+C {ipin.sym} 90 -200 0 0 {name=p2 lab=clk}
+C {opin.sym} 740 -360 0 0 {name=p4 lab=sel[0:3]}
+C {bus_connect.sym} 730 -360 3 0 {name=l1 lab=sel[0]}
+C {bus_connect.sym} 730 -280 3 0 {name=l2 lab=sel[1]}
+C {bus_connect.sym} 730 -200 3 0 {name=l3 lab=sel[2]}
+C {bus_connect.sym} 730 -110 3 0 {name=l4 lab=sel[3]}
+C {bus_connect.sym} 100 -400 1 0 {name=l5 lab=addr[4]}
+C {bus_connect.sym} 100 -280 1 0 {name=l6 lab=addr[5]}
+C {lab_pin.sym} 140 -320 0 0 {name=l7 sig_type=std_logic lab=clk}

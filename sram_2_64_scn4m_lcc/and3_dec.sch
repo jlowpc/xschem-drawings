@@ -12,10 +12,10 @@ N 570 -170 590 -170 { lab=A}
 N 570 -160 590 -160 { lab=B}
 N 570 -150 590 -150 { lab=C}
 N 820 -160 850 -160 { lab=Z}
-C {devices/ipin.sym} 570 -170 0 0 {name=p92 lab=A }
-C {devices/ipin.sym} 570 -160 0 0 {name=p93 lab=B }
-C {devices/ipin.sym} 570 -150 0 0 {name=p94 lab=C }
-C {devices/opin.sym} 840 -160 0 0 {name=p95 lab=Z }
+C {ipin.sym} 570 -170 0 0 {name=p92 lab=A }
+C {ipin.sym} 570 -160 0 0 {name=p93 lab=B }
+C {ipin.sym} 570 -150 0 0 {name=p94 lab=C }
+C {opin.sym} 840 -160 0 0 {name=p95 lab=Z }
 C {pnand3.sym} 640 -60 0 0 {name=xpand3_dec_nand vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 720 -160 1 0 {name=p88 lab=zb_int }
+C {lab_pin.sym} 720 -160 1 0 {name=p88 lab=zb_int }
 C {pinv.sym} 780 -70 0 0 {name=xpand3_dec_inv vdd=vdd gnd=gnd}

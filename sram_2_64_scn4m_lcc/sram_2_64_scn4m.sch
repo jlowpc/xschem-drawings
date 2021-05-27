@@ -45,26 +45,26 @@ C {row_decoder.sym} 1270 1080 0 0 {name=xrowdec vdd=vdd gnd=gnd}
 C {control_logic_rw.sym} 930 1010 0 0 {name=xcontrol vdd=vdd gnd=gnd}
 C {replica_column.sym} 1900 980 0 0 {name=xrepcol vdd=vdd gnd=gnd}
 C {replica_column.sch} 140 390 0 0 {name="" spice_ignore=true}
-C {devices/opin.sym} 1700 1350 1 0 {name=p1 lab=dout[0:1]}
-C {devices/ipin.sym} 740 950 0 0 {name=p3 lab=csb0}
-C {devices/ipin.sym} 740 970 0 0 {name=p4 lab=web0}
-C {devices/ipin.sym} 740 930 0 0 {name=p5 lab=clk0}
-C {devices/ipin.sym} 740 1060 0 0 {name=p6 lab=addr0[0:3]}
-C {devices/ipin.sym} 740 1160 0 0 {name=p7 lab=addr0[4:5]}
-C {devices/ipin.sym} 740 1250 0 0 {name=p8 lab=din[0:1]}
+C {opin.sym} 1700 1350 1 0 {name=p1 lab=dout[0:1]}
+C {ipin.sym} 740 950 0 0 {name=p3 lab=csb0}
+C {ipin.sym} 740 970 0 0 {name=p4 lab=web0}
+C {ipin.sym} 740 930 0 0 {name=p5 lab=clk0}
+C {ipin.sym} 740 1060 0 0 {name=p6 lab=addr0[0:3]}
+C {ipin.sym} 740 1160 0 0 {name=p7 lab=addr0[4:5]}
+C {ipin.sym} 740 1250 0 0 {name=p8 lab=din[0:1]}
 C {row_decoder.sch} -400 450 0 0 {name="" spice_ignore=true}
 C {col_decoder.sch} -710 910 0 0 {name="" spice_ignore=true}
 C {control_logic_rw.sch} -970 10 0 0 {name="" spice_ignore=true}
 C {row_addr_dff.sch} -1720 270 0 0 {name="" spice_ignore=true}
-C {devices/lab_wire.sym} 1470 1060 0 0 {name=l2 sig_type=std_logic lab=wl[0:15]}
-C {devices/lab_wire.sym} 1430 940 0 0 {name=l3 sig_type=std_logic lab=gnd,rbl_wl,wl[0:15],gnd}
-C {devices/lab_wire.sym} 1470 1100 0 0 {name=l1 sig_type=std_logic lab=rbl_wl}
-C {devices/lab_wire.sym} 1470 1160 0 0 {name=l4 sig_type=std_logic lab=sel[0:3]}
-C {devices/ipin.sym} 740 900 0 0 {name=p2 lab=gnd}
-C {devices/ipin.sym} 740 880 0 0 {name=p9 lab=vdd}
-C {devices/lab_wire.sym} 1220 900 0 0 {name=l5 sig_type=std_logic lab=p_en_bar}
-C {devices/lab_wire.sym} 1220 960 0 0 {name=l6 sig_type=std_logic lab=rbl_bl}
-C {devices/lab_wire.sym} 1120 1080 0 0 {name=l7 sig_type=std_logic lab=clk_buf}
-C {devices/lab_wire.sym} 1470 1230 0 0 {name=l8 sig_type=std_logic lab=s_en}
-C {devices/lab_wire.sym} 1470 1290 0 0 {name=l9 sig_type=std_logic lab=w_en}
-C {devices/lab_wire.sym} 1130 1100 0 0 {name=l10 sig_type=std_logic lab=wl_en}
+C {lab_wire.sym} 1470 1060 0 0 {name=l2 sig_type=std_logic lab=wl[0:15]}
+C {lab_wire.sym} 1430 940 0 0 {name=l3 sig_type=std_logic lab=gnd,rbl_wl,wl[0:15],gnd}
+C {lab_wire.sym} 1470 1100 0 0 {name=l1 sig_type=std_logic lab=rbl_wl}
+C {lab_wire.sym} 1470 1160 0 0 {name=l4 sig_type=std_logic lab=sel[0:3]}
+C {ipin.sym} 740 900 0 0 {name=p2 lab=gnd}
+C {ipin.sym} 740 880 0 0 {name=p9 lab=vdd}
+C {lab_wire.sym} 1220 900 0 0 {name=l5 sig_type=std_logic lab=p_en_bar}
+C {lab_wire.sym} 1220 960 0 0 {name=l6 sig_type=std_logic lab=rbl_bl}
+C {lab_wire.sym} 1120 1080 0 0 {name=l7 sig_type=std_logic lab=clk_buf}
+C {lab_wire.sym} 1470 1230 0 0 {name=l8 sig_type=std_logic lab=s_en}
+C {lab_wire.sym} 1470 1290 0 0 {name=l9 sig_type=std_logic lab=w_en}
+C {lab_wire.sym} 1130 1100 0 0 {name=l10 sig_type=std_logic lab=wl_en}

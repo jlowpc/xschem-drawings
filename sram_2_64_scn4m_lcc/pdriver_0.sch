@@ -10,6 +10,6 @@ S {}
 E {}
 N -390 10 -330 10 { lab=A}
 N -250 10 -190 10 { lab=Z}
-C {devices/ipin.sym} -390 10 0 0 {name=p1793 lab=A }
-C {devices/opin.sym} -190 10 0 0 {name=p1794 lab=Z }
+C {ipin.sym} -390 10 0 0 {name=p1793 lab=A }
+C {opin.sym} -190 10 0 0 {name=p1794 lab=Z }
 C {pinv_5.sym} -300 10 0 0 {name=xbuf_inv1 }

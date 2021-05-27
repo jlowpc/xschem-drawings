@@ -15,19 +15,19 @@ N -20 -10 -20 80 { lab=A}
 N 30 30 110 30 { lab=Z}
 N 30 -60 30 -40 { lab=vdd}
 N 30 110 30 130 { lab=gnd}
-C {devices/ipin.sym} -40 -10 0 0 {name=p58 lab=A }
-C {devices/opin.sym} 110 30 0 0 {name=p59 lab=Z }
-C {devices/nmos-sub.sym} 10 80 0 0 {name=Mpinv_nmos
+C {ipin.sym} -40 -10 0 0 {name=p58 lab=A }
+C {opin.sym} 110 30 0 0 {name=p59 lab=Z }
+C {nmos-sub.sym} 10 80 0 0 {name=Mpinv_nmos
 model=n substrate=gnd
 l=0.4u
 w=1.6u
 m=3
 }
-C {devices/pmos-sub.sym} 10 -10 0 0 {name=Mp_inv_pmos
+C {pmos-sub.sym} 10 -10 0 0 {name=Mp_inv_pmos
 model=p substrate=vdd
 l=0.4u
 w=3.2u
 m=3
 }
-C {devices/lab_pin.sym} 30 -60 0 0 {name=l1 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 30 130 0 0 {name=l2 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 30 -60 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 30 130 0 0 {name=l2 sig_type=std_logic lab=gnd}

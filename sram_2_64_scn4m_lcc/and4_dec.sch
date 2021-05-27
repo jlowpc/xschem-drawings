@@ -13,11 +13,11 @@ N 100 -330 140 -330 { lab=C}
 N 110 -310 140 -310 { lab=D}
 N 280 -350 330 -350 { lab=zb_int}
 N 410 -350 480 -350 { lab=#net1}
-C {devices/ipin.sym} 110 -370 0 0 {name=p225 lab=A }
-C {devices/ipin.sym} 110 -350 0 0 {name=p226 lab=B }
-C {devices/ipin.sym} 110 -330 0 0 {name=p227 lab=C }
-C {devices/ipin.sym} 110 -310 0 0 {name=p228 lab=D }
-C {devices/opin.sym} 480 -350 0 0 {name=p229 lab=Z }
+C {ipin.sym} 110 -370 0 0 {name=p225 lab=A }
+C {ipin.sym} 110 -350 0 0 {name=p226 lab=B }
+C {ipin.sym} 110 -330 0 0 {name=p227 lab=C }
+C {ipin.sym} 110 -310 0 0 {name=p228 lab=D }
+C {opin.sym} 480 -350 0 0 {name=p229 lab=Z }
 C {pnand4.sym} 120 -210 0 0 {name=xpand4_dec_nand vdd=vdd gnd=gnd}
 C {pinv.sym} 370 -260 0 0 {name=xpand4_dec_inv vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 320 -350 0 0 {name=l1 sig_type=std_logic lab=zb_int}
+C {lab_wire.sym} 320 -350 0 0 {name=l1 sig_type=std_logic lab=zb_int}

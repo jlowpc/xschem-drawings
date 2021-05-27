@@ -50,40 +50,40 @@ N 630 -650 810 -650 { lab=rbl_bl_delay}
 N 630 -700 630 -650 { lab=rbl_bl_delay}
 N 810 -360 810 -260 { lab=rbl_bl_delay}
 N 450 -490 450 10 { lab=clk_buf}
-C {devices/ipin.sym} 290 -570 0 0 {name=p5 lab=clk }
-C {devices/ipin.sym} 1380 -650 0 1 {name=p6 lab=rbl_bl }
-C {devices/opin.sym} 1380 -240 0 0 {name=p7 lab=s_en }
-C {devices/opin.sym} 1380 -360 0 0 {name=p8 lab=w_en }
-C {devices/opin.sym} 1380 -710 0 0 {name=p9 lab=p_en_bar }
-C {devices/opin.sym} 1380 -480 0 0 {name=p10 lab=wl_en }
+C {ipin.sym} 290 -570 0 0 {name=p5 lab=clk }
+C {ipin.sym} 1380 -650 0 1 {name=p6 lab=rbl_bl }
+C {opin.sym} 1380 -240 0 0 {name=p7 lab=s_en }
+C {opin.sym} 1380 -360 0 0 {name=p8 lab=w_en }
+C {opin.sym} 1380 -710 0 0 {name=p9 lab=p_en_bar }
+C {opin.sym} 1380 -480 0 0 {name=p10 lab=wl_en }
 C {pdriver_1.sym} 370 -570 0 0 {name=xclkbuf1 }
-C {devices/lab_wire.sym} 580 -490 0 1 {name=l4 lab=clk_bar }
+C {lab_wire.sym} 580 -490 0 1 {name=l4 lab=clk_bar }
 C {pinv_2.sym} 500 -490 0 0 {name=xinv_clk_bar2 }
-C {devices/lab_pin.sym} 570 -470 0 0 {name=p12 lab=cs }
-C {devices/lab_wire.sym} 1060 -480 0 1 {name=l5 lab=gated_clk_bar }
+C {lab_pin.sym} 570 -470 0 0 {name=p12 lab=cs }
+C {lab_wire.sym} 1060 -480 0 1 {name=l5 lab=gated_clk_bar }
 C {pand2_0.sym} 670 -480 0 0 {name=xand3 }
-C {devices/lab_wire.sym} 560 -720 0 1 {name=l6 lab=gated_clk_buf }
+C {lab_wire.sym} 560 -720 0 1 {name=l6 lab=gated_clk_buf }
 C {pand2_0.sym} 510 -720 0 0 {name=xand4 }
 C {pdriver_2.sym} 1200 -480 0 0 {name=xbuf_wl_en5 }
-C {devices/lab_wire.sym} 900 -360 0 1 {name=l8 lab=rbl_bl_delay_bar }
+C {lab_wire.sym} 900 -360 0 1 {name=l8 lab=rbl_bl_delay_bar }
 C {pinv_2.sym} 840 -360 0 0 {name=xrbl_bl_delay_inv6 }
-C {devices/lab_wire.sym} 1010 -380 0 0 {lab=we }
-C {devices/lab_wire.sym} 1000 -300 0 0 {lab=gated_clk_bar }
+C {lab_wire.sym} 1010 -380 0 0 {lab=we }
+C {lab_wire.sym} 1000 -300 0 0 {lab=gated_clk_bar }
 C {pand3.sym} 1170 -360 0 0 {name=Xw_en_and1 }
 C {pand3_0.sym} 1170 -240 0 0 {name=Xbuf_s_en_and2 }
-C {devices/lab_wire.sym} 840 -650 0 0 {lab=rbl_bl_delay }
+C {lab_wire.sym} 840 -650 0 0 {lab=rbl_bl_delay }
 C {delay_chain.sym} 1210 -630 0 1 {name=Xdelay_chain3 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 780 -710 0 1 {lab=p_en_bar_unbuf }
+C {lab_wire.sym} 780 -710 0 1 {lab=p_en_bar_unbuf }
 C {pnand2_1.sym} 710 -710 0 0 {name=Xnand_p_en_bar4 }
 C {pdriver_5.sym} 920 -710 0 0 {name=xbuf_p_en_bar7 }
 C {dff_buf_array.sch} 1210 240 0 0 {name=Xctrl_dffs5  prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/ipin.sym} 290 -60 0 0 {name=p13 lab=csb }
-C {devices/ipin.sym} 290 -30 0 0 {name=p14 lab=web }
-C {devices/opin.sym} 1380 -570 0 0 {name=p15 lab=clk_buf}
-C {devices/lab_pin.sym} 440 -710 0 0 {name=p16 lab=cs }
-C {devices/lab_wire.sym} 1210 -360 0 0 {lab=w_en}
-C {devices/lab_wire.sym} 1010 -220 0 0 {lab=we_bar}
-C {devices/lab_pin.sym} 370 -60 0 0 {name=l9 sig_type=std_logic lab=csb,web}
-C {devices/lab_pin.sym} 1190 -40 0 1 {name=l10 sig_type=std_logic lab=cs_bar,cs}
-C {devices/lab_pin.sym} 1190 50 0 1 {name=l11 sig_type=std_logic lab=we_bar,we}
-C {devices/lab_pin.sym} 450 10 2 1 {name=p17 lab=clk_buf }
+C {ipin.sym} 290 -60 0 0 {name=p13 lab=csb }
+C {ipin.sym} 290 -30 0 0 {name=p14 lab=web }
+C {opin.sym} 1380 -570 0 0 {name=p15 lab=clk_buf}
+C {lab_pin.sym} 440 -710 0 0 {name=p16 lab=cs }
+C {lab_wire.sym} 1210 -360 0 0 {lab=w_en}
+C {lab_wire.sym} 1010 -220 0 0 {lab=we_bar}
+C {lab_pin.sym} 370 -60 0 0 {name=l9 sig_type=std_logic lab=csb,web}
+C {lab_pin.sym} 1190 -40 0 1 {name=l10 sig_type=std_logic lab=cs_bar,cs}
+C {lab_pin.sym} 1190 50 0 1 {name=l11 sig_type=std_logic lab=we_bar,we}
+C {lab_pin.sym} 450 10 2 1 {name=p17 lab=clk_buf }

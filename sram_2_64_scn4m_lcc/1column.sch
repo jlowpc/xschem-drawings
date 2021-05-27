@@ -32,18 +32,18 @@ N 1240 570 1270 570 { lab=bl}
 N 1700 570 1730 570 { lab=bl}
 N 1240 430 1270 430 { lab=bl}
 N 1700 430 1730 430 { lab=bl}
-C {devices/iopin.sym} 1730 -840 3 0 {name=p2 lab=br}
-C {devices/ipin.sym} 1140 -740 0 0 {name=p3 lab=wl[0:15]}
+C {iopin.sym} 1730 -840 3 0 {name=p2 lab=br}
+C {ipin.sym} 1140 -740 0 0 {name=p3 lab=wl[0:15]}
 C {cell_1rw.sym} 1230 20 0 0 {name=xbit_c0[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 1190 -490 0 0 {name=xbit_c0[0] vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
-C {devices/bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
-C {devices/iopin.sym} 1240 -840 3 0 {name=p1 lab=bl}
+C {bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
+C {bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
+C {iopin.sym} 1240 -840 3 0 {name=p1 lab=bl}
 C {dummy_cell_1rw.sch} 880 80 0 0 {name=xdum_row_top vdd=vdd gnd=gnd}
 C {dummy_cell_1rw.sym} 1460 410 0 0 {name=xdum_row_bot vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1200 -100 0 0 {name=l3 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 1200 400 0 0 {name=l4 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 1200 -100 0 0 {name=l3 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 1200 400 0 0 {name=l4 sig_type=std_logic lab=gnd}
 C {dummy_cell_1rw.sym} 1460 550 0 0 {name=xdummy_row vdd=vdd gnd=gnd}
-C {devices/ipin.sym} 1140 540 0 0 {name=p4 lab=rbl_wl}
+C {ipin.sym} 1140 540 0 0 {name=p4 lab=rbl_wl}

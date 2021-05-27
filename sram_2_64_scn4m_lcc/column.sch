@@ -60,12 +60,12 @@ N 1280 -980 2060 -980 { lab=p_en_bar}
 N 2060 -980 2840 -980 { lab=p_en_bar}
 N 2840 -980 3600 -980 { lab=p_en_bar}
 N 1280 -640 3600 -640 { lab=wl[0:15]}
-C {devices/opin.sym} 1870 2040 1 0 {name=p1578 lab=dout}
-C {devices/ipin.sym} 1120 1490 0 0 {name=p1580 lab=din}
-C {devices/ipin.sym} 1120 1100 0 0 {name=p1582 lab=s_en }
-C {devices/ipin.sym} 1120 -980 0 0 {name=p1583 lab=p_en_bar }
-C {devices/ipin.sym} 1120 1760 0 0 {name=p1584 lab=w_en }
-C {devices/iopin.sym} 1120 850 2 0 {name=p1 lab=sel[0:3]}
+C {opin.sym} 1870 2040 1 0 {name=p1578 lab=dout}
+C {ipin.sym} 1120 1490 0 0 {name=p1580 lab=din}
+C {ipin.sym} 1120 1100 0 0 {name=p1582 lab=s_en }
+C {ipin.sym} 1120 -980 0 0 {name=p1583 lab=p_en_bar }
+C {ipin.sym} 1120 1760 0 0 {name=p1584 lab=w_en }
+C {iopin.sym} 1120 850 2 0 {name=p1 lab=sel[0:3]}
 C {1column.sch} 140 100 0 0 {name=x2 vdd=vdd gnd=gnd}
 C {1column.sym} 3190 0 0 0 {name=x4 vdd=vdd gnd=gnd}
 C {1column.sym} 3950 0 0 0 {name=x5 vdd=vdd gnd=gnd}
@@ -79,19 +79,19 @@ C {precharge_0.sch} 1250 -1080 0 0 {name=x12 prefix=sky130_fd_sc_hd__ vdd=vdd gn
 C {precharge_0.sym} 2380 -930 0 0 {name=x13 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {precharge_0.sym} 3160 -930 0 0 {name=x14 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {precharge_0.sym} 3920 -930 0 0 {name=x15 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/ipin.sym} 1120 -640 0 0 {name=p2 lab=wl[0:15]}
-C {devices/ipin.sym} 1120 640 0 0 {name=p3 lab=rbl_wl}
+C {ipin.sym} 1120 -640 0 0 {name=p2 lab=wl[0:15]}
+C {ipin.sym} 1120 640 0 0 {name=p3 lab=rbl_wl}
 C {dff.sym} 1520 1520 0 0 {name=x16 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {dff.sch} 3050 2010 0 0 {name="" vdd=vdd gnd=gnd spice_ignore=true dash=4}
-C {devices/ipin.sym} 1120 1560 0 0 {name=p4 lab=clk}
+C {ipin.sym} 1120 1560 0 0 {name=p4 lab=clk}
 C {1column.sym} 2410 0 0 0 {name=x3 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 1380 750 0 0 {name=l1 sig_type=std_logic lab=blL[0]}
-C {devices/lab_wire.sym} 1870 750 0 0 {name=l2 sig_type=std_logic lab=blR[0]}
-C {devices/lab_wire.sym} 2160 750 0 0 {name=l3 sig_type=std_logic lab=blL[1]}
-C {devices/lab_wire.sym} 2650 750 0 0 {name=l4 sig_type=std_logic lab=blR[1]}
-C {devices/lab_wire.sym} 2940 750 0 0 {name=l5 sig_type=std_logic lab=blL[2]}
-C {devices/lab_wire.sym} 3430 750 0 0 {name=l6 sig_type=std_logic lab=blR[2]}
-C {devices/lab_wire.sym} 3700 750 0 0 {name=l7 sig_type=std_logic lab=blL[3]}
-C {devices/lab_wire.sym} 4190 750 0 0 {name=l8 sig_type=std_logic lab=blR[3]}
-C {devices/lab_wire.sym} 1790 980 0 0 {name=l9 sig_type=std_logic lab=bl_outL}
-C {devices/lab_wire.sym} 3030 950 0 0 {name=l11 sig_type=std_logic lab=bl_outR}
+C {lab_wire.sym} 1380 750 0 0 {name=l1 sig_type=std_logic lab=blL[0]}
+C {lab_wire.sym} 1870 750 0 0 {name=l2 sig_type=std_logic lab=blR[0]}
+C {lab_wire.sym} 2160 750 0 0 {name=l3 sig_type=std_logic lab=blL[1]}
+C {lab_wire.sym} 2650 750 0 0 {name=l4 sig_type=std_logic lab=blR[1]}
+C {lab_wire.sym} 2940 750 0 0 {name=l5 sig_type=std_logic lab=blL[2]}
+C {lab_wire.sym} 3430 750 0 0 {name=l6 sig_type=std_logic lab=blR[2]}
+C {lab_wire.sym} 3700 750 0 0 {name=l7 sig_type=std_logic lab=blL[3]}
+C {lab_wire.sym} 4190 750 0 0 {name=l8 sig_type=std_logic lab=blR[3]}
+C {lab_wire.sym} 1790 980 0 0 {name=l9 sig_type=std_logic lab=bl_outL}
+C {lab_wire.sym} 3030 950 0 0 {name=l11 sig_type=std_logic lab=bl_outR}

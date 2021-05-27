@@ -13,9 +13,9 @@ N -160 -10 -120 -10 { lab=A}
 N -160 10 -120 10 { lab=B}
 N -20 0 40 0 { lab=zb_int}
 N 110 0 140 0 { lab=Z}
-C {devices/ipin.sym} -160 -10 0 0 {name=p1740 lab=A }
-C {devices/ipin.sym} -160 10 0 0 {name=p1741 lab=B }
-C {devices/opin.sym} 140 0 0 0 {name=p1742 lab=Z }
-C {devices/lab_wire.sym} -10 0 0 1 {name=l1733 lab=zb_int }
+C {ipin.sym} -160 -10 0 0 {name=p1740 lab=A }
+C {ipin.sym} -160 10 0 0 {name=p1741 lab=B }
+C {opin.sym} 140 0 0 0 {name=p1742 lab=Z }
+C {lab_wire.sym} -10 0 0 1 {name=l1733 lab=zb_int }
 C {pnand2_0.sym} -80 0 0 0 {name=xpand2_nand }
 C {pdriver_0.sym} 70 0 0 0 {name=xpand2_inv }
