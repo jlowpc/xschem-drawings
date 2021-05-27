@@ -80,83 +80,83 @@ N 2050 -1090 2130 -1090 { lab=decode[0:15]}
 N 1080 -1040 1080 -960 { lab=addr[0:3]}
 N 1080 -960 1080 -650 { lab=addr[0:3]}
 N 1030 -1040 1080 -1040 { lab=addr[0:3]}
-C {devices/ipin.sym} 1030 -1040 0 0 {name=p478 lab=addr[0:3]}
-C {devices/opin.sym} 2130 -1090 0 0 {name=p482 lab=decode[0:15]}
-C {devices/lab_wire.sym} 1600 -1030 0 1 {name=l384 lab=out_0 }
+C {ipin.sym} 1030 -1040 0 0 {name=p478 lab=addr[0:3]}
+C {opin.sym} 2130 -1090 0 0 {name=p482 lab=decode[0:15]}
+C {lab_wire.sym} 1600 -1030 0 1 {name=l384 lab=out_0 }
 C {hierarchical_predecode2x4.sch} 1080 -700 0 0 {name=xpre_0 vdd=vdd gnd=gnd}
 C {hierarchical_predecode2x4.sym} 1350 -650 0 0 {name=xpre_1 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -1090 0 0 {name=p398 lab=out_0 }
-C {devices/lab_pin.sym} 1780 -1070 0 0 {name=p399 lab=out_4 }
+C {lab_pin.sym} 1780 -1090 0 0 {name=p398 lab=out_0 }
+C {lab_pin.sym} 1780 -1070 0 0 {name=p399 lab=out_4 }
 C {and2_dec.sym} 1920 -1000 0 0 {name=xDEC_AND_0 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -1010 0 0 {name=p403 lab=out_0 }
-C {devices/lab_pin.sym} 1780 -990 0 0 {name=p404 lab=out_5 }
+C {lab_pin.sym} 1780 -1010 0 0 {name=p403 lab=out_0 }
+C {lab_pin.sym} 1780 -990 0 0 {name=p404 lab=out_5 }
 C {and2_dec.sym} 1920 -920 0 0 {name=xDEC_AND_4 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -930 0 0 {name=p408 lab=out_0 }
-C {devices/lab_pin.sym} 1780 -910 0 0 {name=p409 lab=out_6 }
+C {lab_pin.sym} 1780 -930 0 0 {name=p408 lab=out_0 }
+C {lab_pin.sym} 1780 -910 0 0 {name=p409 lab=out_6 }
 C {and2_dec.sym} 1920 -840 0 0 {name=xDEC_AND_8 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -850 0 0 {name=p413 lab=out_0 }
-C {devices/lab_pin.sym} 1780 -830 0 0 {name=p414 lab=out_7 }
+C {lab_pin.sym} 1780 -850 0 0 {name=p413 lab=out_0 }
+C {lab_pin.sym} 1780 -830 0 0 {name=p414 lab=out_7 }
 C {and2_dec.sym} 1920 -760 0 0 {name=xDEC_AND_12 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -770 0 0 {name=p418 lab=out_1 }
-C {devices/lab_pin.sym} 1780 -750 0 0 {name=p419 lab=out_4 }
+C {lab_pin.sym} 1780 -770 0 0 {name=p418 lab=out_1 }
+C {lab_pin.sym} 1780 -750 0 0 {name=p419 lab=out_4 }
 C {and2_dec.sym} 1920 -680 0 0 {name=xDEC_AND_1 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -690 0 0 {name=p423 lab=out_1 }
-C {devices/lab_pin.sym} 1780 -670 0 0 {name=p424 lab=out_5 }
+C {lab_pin.sym} 1780 -690 0 0 {name=p423 lab=out_1 }
+C {lab_pin.sym} 1780 -670 0 0 {name=p424 lab=out_5 }
 C {and2_dec.sym} 1920 -600 0 0 {name=xDEC_AND_5 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -610 0 0 {name=p428 lab=out_1 }
-C {devices/lab_pin.sym} 1780 -590 0 0 {name=p429 lab=out_6 }
+C {lab_pin.sym} 1780 -610 0 0 {name=p428 lab=out_1 }
+C {lab_pin.sym} 1780 -590 0 0 {name=p429 lab=out_6 }
 C {and2_dec.sym} 1920 -520 0 0 {name=xDEC_AND_9 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -530 0 0 {name=p433 lab=out_1 }
-C {devices/lab_pin.sym} 1780 -510 0 0 {name=p434 lab=out_7 }
+C {lab_pin.sym} 1780 -530 0 0 {name=p433 lab=out_1 }
+C {lab_pin.sym} 1780 -510 0 0 {name=p434 lab=out_7 }
 C {and2_dec.sym} 1920 -440 0 0 {name=xDEC_AND_13 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -450 0 0 {name=p438 lab=out_2 }
-C {devices/lab_pin.sym} 1780 -430 0 0 {name=p439 lab=out_4 }
+C {lab_pin.sym} 1780 -450 0 0 {name=p438 lab=out_2 }
+C {lab_pin.sym} 1780 -430 0 0 {name=p439 lab=out_4 }
 C {and2_dec.sym} 1920 -360 0 0 {name=xDEC_AND_2 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -370 0 0 {name=p443 lab=out_2 }
-C {devices/lab_pin.sym} 1780 -350 0 0 {name=p444 lab=out_5 }
+C {lab_pin.sym} 1780 -370 0 0 {name=p443 lab=out_2 }
+C {lab_pin.sym} 1780 -350 0 0 {name=p444 lab=out_5 }
 C {and2_dec.sym} 1920 -280 0 0 {name=xDEC_AND_6 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -290 0 0 {name=p448 lab=out_2 }
-C {devices/lab_pin.sym} 1780 -270 0 0 {name=p449 lab=out_6 }
+C {lab_pin.sym} 1780 -290 0 0 {name=p448 lab=out_2 }
+C {lab_pin.sym} 1780 -270 0 0 {name=p449 lab=out_6 }
 C {and2_dec.sym} 1920 -200 0 0 {name=xDEC_AND_10 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -210 0 0 {name=p453 lab=out_2 }
-C {devices/lab_pin.sym} 1780 -190 0 0 {name=p454 lab=out_7 }
+C {lab_pin.sym} 1780 -210 0 0 {name=p453 lab=out_2 }
+C {lab_pin.sym} 1780 -190 0 0 {name=p454 lab=out_7 }
 C {and2_dec.sym} 1920 -120 0 0 {name=xDEC_AND_14 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -130 0 0 {name=p458 lab=out_3 }
-C {devices/lab_pin.sym} 1780 -110 0 0 {name=p459 lab=out_4 }
+C {lab_pin.sym} 1780 -130 0 0 {name=p458 lab=out_3 }
+C {lab_pin.sym} 1780 -110 0 0 {name=p459 lab=out_4 }
 C {and2_dec.sym} 1920 -40 0 0 {name=xDEC_AND_3 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 -50 0 0 {name=p463 lab=out_3 }
-C {devices/lab_pin.sym} 1780 -30 0 0 {name=p464 lab=out_5 }
+C {lab_pin.sym} 1780 -50 0 0 {name=p463 lab=out_3 }
+C {lab_pin.sym} 1780 -30 0 0 {name=p464 lab=out_5 }
 C {and2_dec.sym} 1920 40 0 0 {name=xDEC_AND_7 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 30 0 0 {name=p468 lab=out_3 }
-C {devices/lab_pin.sym} 1780 50 0 0 {name=p469 lab=out_6 }
+C {lab_pin.sym} 1780 30 0 0 {name=p468 lab=out_3 }
+C {lab_pin.sym} 1780 50 0 0 {name=p469 lab=out_6 }
 C {and2_dec.sym} 1920 120 0 0 {name=xDEC_AND_11 vdd=vdd gnd=gnd}
-C {devices/lab_pin.sym} 1780 110 0 0 {name=p473 lab=out_3 }
-C {devices/lab_pin.sym} 1780 130 0 0 {name=p474 lab=out_7 }
+C {lab_pin.sym} 1780 110 0 0 {name=p473 lab=out_3 }
+C {lab_pin.sym} 1780 130 0 0 {name=p474 lab=out_7 }
 C {and2_dec.sym} 1920 200 0 0 {name=xDEC_AND_15 vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 1080 -1040 1 0 {name=l1 lab=addr[0]}
-C {devices/bus_connect.sym} 1080 -960 1 0 {name=l2 lab=addr[1]}
-C {devices/bus_connect.sym} 1080 -710 1 0 {name=l3 lab=addr[2]}
-C {devices/bus_connect.sym} 1080 -650 1 0 {name=l4 lab=addr[3]}
-C {devices/lab_wire.sym} 1600 -950 0 1 {name=l5 lab=out_1}
-C {devices/lab_wire.sym} 1600 -870 0 1 {name=l6 lab=out_2}
-C {devices/lab_wire.sym} 1600 -780 0 1 {name=l7 lab=out_3}
-C {devices/lab_wire.sym} 1600 -700 0 1 {name=l8 lab=out_4}
-C {devices/lab_wire.sym} 1600 -680 0 1 {name=l9 lab=out_5}
-C {devices/lab_wire.sym} 1600 -660 0 1 {name=l10 lab=out_6}
-C {devices/lab_wire.sym} 1600 -640 0 1 {name=l11 lab=out_7}
-C {devices/bus_connect.sym} 2050 -1090 3 1 {name=l12 lab=decode[0]}
-C {devices/bus_connect.sym} 2050 -1010 3 1 {name=l13 lab=decode[4]}
-C {devices/bus_connect.sym} 2050 -930 3 1 {name=l14 lab=decode[8]}
-C {devices/bus_connect.sym} 2050 -850 3 1 {name=l15 lab=decode[12]}
-C {devices/bus_connect.sym} 2050 -770 3 1 {name=l16 lab=decode[1]}
-C {devices/bus_connect.sym} 2050 -690 3 1 {name=l17 lab=decode[5]}
-C {devices/bus_connect.sym} 2050 -610 3 1 {name=l18 lab=decode[9]}
-C {devices/bus_connect.sym} 2050 -530 3 1 {name=l19 lab=decode[13]}
-C {devices/bus_connect.sym} 2050 -450 3 1 {name=l20 lab=decode[2]}
-C {devices/bus_connect.sym} 2050 -370 3 1 {name=l21 lab=decode[6]}
-C {devices/bus_connect.sym} 2050 -290 3 1 {name=l22 lab=decode[10]}
-C {devices/bus_connect.sym} 2050 -210 3 1 {name=l23 lab=decode[14]}
-C {devices/bus_connect.sym} 2050 -130 3 1 {name=l24 lab=decode[3]}
-C {devices/bus_connect.sym} 2050 -50 3 1 {name=l25 lab=decode[7]}
-C {devices/bus_connect.sym} 2050 30 3 1 {name=l26 lab=decode[11]}
-C {devices/bus_connect.sym} 2050 110 3 1 {name=l27 lab=decode[15]}
+C {bus_connect.sym} 1080 -1040 1 0 {name=l1 lab=addr[0]}
+C {bus_connect.sym} 1080 -960 1 0 {name=l2 lab=addr[1]}
+C {bus_connect.sym} 1080 -710 1 0 {name=l3 lab=addr[2]}
+C {bus_connect.sym} 1080 -650 1 0 {name=l4 lab=addr[3]}
+C {lab_wire.sym} 1600 -950 0 1 {name=l5 lab=out_1}
+C {lab_wire.sym} 1600 -870 0 1 {name=l6 lab=out_2}
+C {lab_wire.sym} 1600 -780 0 1 {name=l7 lab=out_3}
+C {lab_wire.sym} 1600 -700 0 1 {name=l8 lab=out_4}
+C {lab_wire.sym} 1600 -680 0 1 {name=l9 lab=out_5}
+C {lab_wire.sym} 1600 -660 0 1 {name=l10 lab=out_6}
+C {lab_wire.sym} 1600 -640 0 1 {name=l11 lab=out_7}
+C {bus_connect.sym} 2050 -1090 3 1 {name=l12 lab=decode[0]}
+C {bus_connect.sym} 2050 -1010 3 1 {name=l13 lab=decode[4]}
+C {bus_connect.sym} 2050 -930 3 1 {name=l14 lab=decode[8]}
+C {bus_connect.sym} 2050 -850 3 1 {name=l15 lab=decode[12]}
+C {bus_connect.sym} 2050 -770 3 1 {name=l16 lab=decode[1]}
+C {bus_connect.sym} 2050 -690 3 1 {name=l17 lab=decode[5]}
+C {bus_connect.sym} 2050 -610 3 1 {name=l18 lab=decode[9]}
+C {bus_connect.sym} 2050 -530 3 1 {name=l19 lab=decode[13]}
+C {bus_connect.sym} 2050 -450 3 1 {name=l20 lab=decode[2]}
+C {bus_connect.sym} 2050 -370 3 1 {name=l21 lab=decode[6]}
+C {bus_connect.sym} 2050 -290 3 1 {name=l22 lab=decode[10]}
+C {bus_connect.sym} 2050 -210 3 1 {name=l23 lab=decode[14]}
+C {bus_connect.sym} 2050 -130 3 1 {name=l24 lab=decode[3]}
+C {bus_connect.sym} 2050 -50 3 1 {name=l25 lab=decode[7]}
+C {bus_connect.sym} 2050 30 3 1 {name=l26 lab=decode[11]}
+C {bus_connect.sym} 2050 110 3 1 {name=l27 lab=decode[15]}

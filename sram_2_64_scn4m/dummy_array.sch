@@ -17,7 +17,7 @@ T {@name} 490 -320 0 0 0.4 0.4 {}
 N 30 -210 80 -210 { lab=wl[0]}
 N 510 -80 580 -80 { lab=br[0:7]}
 N 30 -80 80 -80 { lab=bl[0:7]}
-C {devices/iopin.sym} 30 -80 0 1 {name=p1056 lab=bl[0:7]}
-C {devices/iopin.sym} 580 -80 0 0 {name=p1057 lab=br[0:7]}
-C {devices/ipin.sym} 30 -210 0 0 {name=p1058 lab=wl}
+C {iopin.sym} 30 -80 0 1 {name=p1056 lab=bl[0:7]}
+C {iopin.sym} 580 -80 0 0 {name=p1057 lab=br[0:7]}
+C {ipin.sym} 30 -210 0 0 {name=p1058 lab=wl}
 C {dummy_cell_1rw.sch} -310 -30 0 0 {name=xr0_c[0:7] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}

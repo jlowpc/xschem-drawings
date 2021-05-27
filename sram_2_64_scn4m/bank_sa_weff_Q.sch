@@ -33,21 +33,21 @@ N 3770 1380 4430 1380 {}
 N 3770 1380 3770 3170 {}
 N 4860 1370 5600 1370 {}
 N 5600 1380 5600 3170 {}
-C {devices/opin.sym} 5810 3970 0 0 {name=p1651 lab=dout[0:1]}
-C {devices/opin.sym} 3260 2980 0 1 {name=p1653 lab=rbl_bl[0]}
-C {devices/ipin.sym} 3260 2190 0 0 {name=p1654 lab=din[0:1]}
-C {devices/ipin.sym} 3260 3820 0 0 {name=p1660 lab=s_en0 }
-C {devices/ipin.sym} 3260 2910 0 0 {name=p1661 lab=p_en_bar0 }
-C {devices/ipin.sym} 3260 2480 0 0 {name=p1662 lab=w_en0 }
+C {opin.sym} 5810 3970 0 0 {name=p1651 lab=dout[0:1]}
+C {opin.sym} 3260 2980 0 1 {name=p1653 lab=rbl_bl[0]}
+C {ipin.sym} 3260 2190 0 0 {name=p1654 lab=din[0:1]}
+C {ipin.sym} 3260 3820 0 0 {name=p1660 lab=s_en0 }
+C {ipin.sym} 3260 2910 0 0 {name=p1661 lab=p_en_bar0 }
+C {ipin.sym} 3260 2480 0 0 {name=p1662 lab=w_en0 }
 C {port_data.sch} 3060 1880 0 0 {name=xport_data0 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 3850 3170 0 0 {name=l4 sig_type=std_logic lab=bl[0:7]}
+C {lab_wire.sym} 3850 3170 0 0 {name=l4 sig_type=std_logic lab=bl[0:7]}
 C {hierarchical_predecode2x4_0.sch} 3320 3720 0 0 {name=Xcol_address_decoder0 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 3820 3390 1 0 {name=l6 lab=sel[0]}
-C {devices/bus_connect.sym} 3820 3470 1 0 {name=l7 lab=sel[1]}
-C {devices/bus_connect.sym} 3820 3550 1 0 {name=l8 lab=sel[2]}
-C {devices/bus_connect.sym} 3820 3640 1 0 {name=l9 lab=sel[3]}
-C {devices/lab_wire.sym} 3900 3470 0 0 {name=l10 sig_type=std_logic lab=sel[0:3]}
-C {devices/bus_connect.sym} 3310 3400 1 1 {name=l11 lab=addr[0]}
-C {devices/bus_connect.sym} 3310 3480 1 1 {name=l12 lab=addr[1]}
-C {devices/ipin.sym} 3260 3400 0 0 {name=p1 lab=addr[0:1]}
+C {bus_connect.sym} 3820 3390 1 0 {name=l6 lab=sel[0]}
+C {bus_connect.sym} 3820 3470 1 0 {name=l7 lab=sel[1]}
+C {bus_connect.sym} 3820 3550 1 0 {name=l8 lab=sel[2]}
+C {bus_connect.sym} 3820 3640 1 0 {name=l9 lab=sel[3]}
+C {lab_wire.sym} 3900 3470 0 0 {name=l10 sig_type=std_logic lab=sel[0:3]}
+C {bus_connect.sym} 3310 3400 1 1 {name=l11 lab=addr[0]}
+C {bus_connect.sym} 3310 3480 1 1 {name=l12 lab=addr[1]}
+C {ipin.sym} 3260 3400 0 0 {name=p1 lab=addr[0:1]}
 C {cell_1rw.sch} 4350 1490 0 0 {name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}

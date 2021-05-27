@@ -11,8 +11,8 @@ E {}
 N -140 0 -90 0 { lab=A}
 N 130 0 180 0 { lab=Z}
 N -10 0 50 -0 { lab=xxx}
-C {devices/ipin.sym} -140 0 0 0 {name=p1891 lab=A }
-C {devices/opin.sym} 180 0 0 0 {name=p1892 lab=Z }
+C {ipin.sym} -140 0 0 0 {name=p1891 lab=A }
+C {opin.sym} 180 0 0 0 {name=p1892 lab=Z }
 C {pinv_1.sym} -60 0 0 0 {name=xbuf_inv1 }
 C {pinv_1.sym} 80 0 0 0 {name=xbuf_inv2 }
-C {devices/lab_wire.sym} 30 0 0 0 {name=l1 sig_type=std_logic lab=Zb1_int}
+C {lab_wire.sym} 30 0 0 0 {name=l1 sig_type=std_logic lab=Zb1_int}

@@ -46,31 +46,31 @@ N 1830 120 1830 160 { lab=#net19}
 N 1990 120 1990 140 { lab=#net20}
 C {column_mux.sch} -50 50 0 0 {name=xXmux[0:3] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {column_mux.sch} 450 50 0 0 {name=xXmux[4] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/ipin.sym} -300 50 0 0 {name=p1 lab=sel[0:3]}
-C {devices/bus_connect.sym} -130 -60 1 1 {name=l1 lab=bl[0:3]}
-C {devices/bus_connect.sym} 370 -60 1 1 {name=l2 lab=bl[4]}
-C {devices/bus_connect.sym} 30 -80 1 1 {name=l3 lab=br[0:3]}
-C {devices/bus_connect.sym} 530 -80 1 1 {name=l4 lab=br[4]}
-C {devices/iopin.sym} 420 200 1 0 {name=p3 lab=br_out[0:1]}
-C {devices/iopin.sym} 40 200 1 0 {name=p5 lab=bl_out[0:1]}
-C {devices/iopin.sym} -30 -140 3 0 {name=p6 lab=bl[0:7]}
-C {devices/iopin.sym} 290 -140 3 0 {name=p7 lab=br[0:7]}
-C {devices/bus_connect.sym} -130 160 1 0 {name=l5 lab=bl_out[0]}
-C {devices/bus_connect.sym} 370 160 3 1 {name=l6 lab=bl_out[1]}
-C {devices/bus_connect.sym} 30 140 1 0 {name=l7 lab=br_out[0]}
-C {devices/bus_connect.sym} 530 140 1 0 {name=l8 lab=br_out[1]}
+C {ipin.sym} -300 50 0 0 {name=p1 lab=sel[0:3]}
+C {bus_connect.sym} -130 -60 1 1 {name=l1 lab=bl[0:3]}
+C {bus_connect.sym} 370 -60 1 1 {name=l2 lab=bl[4]}
+C {bus_connect.sym} 30 -80 1 1 {name=l3 lab=br[0:3]}
+C {bus_connect.sym} 530 -80 1 1 {name=l4 lab=br[4]}
+C {iopin.sym} 420 200 1 0 {name=p3 lab=br_out[0:1]}
+C {iopin.sym} 40 200 1 0 {name=p5 lab=bl_out[0:1]}
+C {iopin.sym} -30 -140 3 0 {name=p6 lab=bl[0:7]}
+C {iopin.sym} 290 -140 3 0 {name=p7 lab=br[0:7]}
+C {bus_connect.sym} -130 160 1 0 {name=l5 lab=bl_out[0]}
+C {bus_connect.sym} 370 160 3 1 {name=l6 lab=bl_out[1]}
+C {bus_connect.sym} 30 140 1 0 {name=l7 lab=br_out[0]}
+C {bus_connect.sym} 530 140 1 0 {name=l8 lab=br_out[1]}
 C {column_mux.sch} 940 50 0 0 {name=xXmux1[5] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 860 -60 1 1 {name=l9 lab=bl[5]}
-C {devices/bus_connect.sym} 1020 -80 1 1 {name=l10 lab=br[5]}
-C {devices/bus_connect.sym} 860 160 3 1 {name=l11 lab=bl_out[1]}
-C {devices/bus_connect.sym} 1020 140 1 0 {name=l12 lab=br_out[1]}
+C {bus_connect.sym} 860 -60 1 1 {name=l9 lab=bl[5]}
+C {bus_connect.sym} 1020 -80 1 1 {name=l10 lab=br[5]}
+C {bus_connect.sym} 860 160 3 1 {name=l11 lab=bl_out[1]}
+C {bus_connect.sym} 1020 140 1 0 {name=l12 lab=br_out[1]}
 C {column_mux.sch} 1430 50 0 0 {name=xXmux2[6] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 1350 -60 1 1 {name=l13 lab=bl[6]}
-C {devices/bus_connect.sym} 1510 -80 1 1 {name=l14 lab=br[6]}
-C {devices/bus_connect.sym} 1350 160 3 1 {name=l15 lab=bl_out[1]}
-C {devices/bus_connect.sym} 1510 140 1 0 {name=l16 lab=br_out[1]}
+C {bus_connect.sym} 1350 -60 1 1 {name=l13 lab=bl[6]}
+C {bus_connect.sym} 1510 -80 1 1 {name=l14 lab=br[6]}
+C {bus_connect.sym} 1350 160 3 1 {name=l15 lab=bl_out[1]}
+C {bus_connect.sym} 1510 140 1 0 {name=l16 lab=br_out[1]}
 C {column_mux.sch} 1910 50 0 0 {name=xXmux3[7] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 1830 -60 1 1 {name=l17 lab=bl[7]}
-C {devices/bus_connect.sym} 1990 -80 1 1 {name=l18 lab=br[7]}
-C {devices/bus_connect.sym} 1830 160 3 1 {name=l19 lab=bl_out[1]}
-C {devices/bus_connect.sym} 1990 140 1 0 {name=l20 lab=br_out[1]}
+C {bus_connect.sym} 1830 -60 1 1 {name=l17 lab=bl[7]}
+C {bus_connect.sym} 1990 -80 1 1 {name=l18 lab=br[7]}
+C {bus_connect.sym} 1830 160 3 1 {name=l19 lab=bl_out[1]}
+C {bus_connect.sym} 1990 140 1 0 {name=l20 lab=br_out[1]}

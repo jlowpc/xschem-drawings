@@ -19,18 +19,18 @@ N -80 30 -80 70 { lab=bl_out}
 N 80 30 80 70 { lab=br_out}
 N -230 0 -120 0 { lab=wl}
 N -120 0 40 0 { lab=wl}
-C {devices/iopin.sym} -80 -70 1 1 {name=p729 lab=bl }
-C {devices/iopin.sym} 80 -70 3 0 {name=p730 lab=br }
-C {devices/iopin.sym} -230 0 0 1 {name=p731 lab=sel}
-C {devices/nmos-sub.sym} -100 0 0 0 {name=Mmux_tx1 model=n substrate=gnd
+C {iopin.sym} -80 -70 1 1 {name=p729 lab=bl }
+C {iopin.sym} 80 -70 3 0 {name=p730 lab=br }
+C {iopin.sym} -230 0 0 1 {name=p731 lab=sel}
+C {nmos-sub.sym} -100 0 0 0 {name=Mmux_tx1 model=n substrate=gnd
 L=0.4u
 W=6.4u
 m=1
 }
-C {devices/nmos-sub.sym} 60 0 0 0 {name=Mmux_tx2 model=n substrate=gnd
+C {nmos-sub.sym} 60 0 0 0 {name=Mmux_tx2 model=n substrate=gnd
 L=0.4u
 W=6.4u
 m=1
 }
-C {devices/iopin.sym} -80 70 3 1 {name=p1 lab=bl_out}
-C {devices/iopin.sym} 80 70 3 1 {name=p2 lab=br_out}
+C {iopin.sym} -80 70 3 1 {name=p1 lab=bl_out}
+C {iopin.sym} 80 70 3 1 {name=p2 lab=br_out}

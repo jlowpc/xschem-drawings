@@ -47,28 +47,28 @@ N 3260 2550 3310 2550 { lab=addr[0:1]}
 N 6730 2320 9260 2320 { lab=br[0:7]}
 N 6730 2130 9400 2130 { lab=rbl_br[0]}
 N 3680 -2160 3830 -2160 { lab=rbl_bl[0]}
-C {devices/opin.sym} 9630 3220 0 0 {name=p1651 lab=dout[0:1]}
-C {devices/opin.sym} 3260 2130 0 1 {name=p1653 lab=rbl_bl[0]}
-C {devices/ipin.sym} 3260 3300 0 0 {name=p1654 lab=din[0:1]}
-C {devices/ipin.sym} 3260 1020 0 0 {name=p1656 lab=addr[2:5]}
-C {devices/ipin.sym} 3260 3930 0 0 {name=p1660 lab=s_en0 }
-C {devices/ipin.sym} 3260 2060 0 0 {name=p1661 lab=p_en_bar0 }
-C {devices/ipin.sym} 3260 3590 0 0 {name=p1662 lab=w_en0 }
-C {devices/ipin.sym} 3260 1100 0 0 {name=p1663 lab=wl_en0 }
+C {opin.sym} 9630 3220 0 0 {name=p1651 lab=dout[0:1]}
+C {opin.sym} 3260 2130 0 1 {name=p1653 lab=rbl_bl[0]}
+C {ipin.sym} 3260 3300 0 0 {name=p1654 lab=din[0:1]}
+C {ipin.sym} 3260 1020 0 0 {name=p1656 lab=addr[2:5]}
+C {ipin.sym} 3260 3930 0 0 {name=p1660 lab=s_en0 }
+C {ipin.sym} 3260 2060 0 0 {name=p1661 lab=p_en_bar0 }
+C {ipin.sym} 3260 3590 0 0 {name=p1662 lab=w_en0 }
+C {ipin.sym} 3260 1100 0 0 {name=p1663 lab=wl_en0 }
 C {replica_bitcell_array.sch} 3230 -210 0 0 {name=xbitcell_array vdd=vdd gnd=gnd}
 C {port_data.sch} 3060 1030 0 0 {name=xport_data0 vdd=vdd gnd=gnd}
 C {port_address.sym} 3470 1200 0 0 {name=xport_address0 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 3670 1050 0 0 {name=l1 lab=rbl_wl[0]}
-C {devices/lab_wire.sym} 3670 1030 0 0 {name=l2 lab=w[0:15]}
-C {devices/lab_wire.sym} 9400 1060 0 0 {name=l3 sig_type=std_logic lab=rbl_br[0]}
-C {devices/lab_wire.sym} 3850 2320 0 0 {name=l4 sig_type=std_logic lab=bl[0:7]}
-C {devices/lab_wire.sym} 9260 1680 0 0 {name=l5 sig_type=std_logic lab=br[0:7]}
+C {lab_wire.sym} 3670 1050 0 0 {name=l1 lab=rbl_wl[0]}
+C {lab_wire.sym} 3670 1030 0 0 {name=l2 lab=w[0:15]}
+C {lab_wire.sym} 9400 1060 0 0 {name=l3 sig_type=std_logic lab=rbl_br[0]}
+C {lab_wire.sym} 3850 2320 0 0 {name=l4 sig_type=std_logic lab=bl[0:7]}
+C {lab_wire.sym} 9260 1680 0 0 {name=l5 sig_type=std_logic lab=br[0:7]}
 C {hierarchical_predecode2x4_0.sch} 3320 2870 0 0 {name=Xcol_address_decoder0 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 3820 2540 1 0 {name=l6 lab=sel[0]}
-C {devices/bus_connect.sym} 3820 2620 1 0 {name=l7 lab=sel[1]}
-C {devices/bus_connect.sym} 3820 2700 1 0 {name=l8 lab=sel[2]}
-C {devices/bus_connect.sym} 3820 2790 1 0 {name=l9 lab=sel[3]}
-C {devices/lab_wire.sym} 3900 2620 0 0 {name=l10 sig_type=std_logic lab=sel[0:3]}
-C {devices/bus_connect.sym} 3310 2550 1 1 {name=l11 lab=addr[0]}
-C {devices/bus_connect.sym} 3310 2630 1 1 {name=l12 lab=addr[1]}
-C {devices/ipin.sym} 3260 2550 0 0 {name=p1 lab=addr[0:1]}
+C {bus_connect.sym} 3820 2540 1 0 {name=l6 lab=sel[0]}
+C {bus_connect.sym} 3820 2620 1 0 {name=l7 lab=sel[1]}
+C {bus_connect.sym} 3820 2700 1 0 {name=l8 lab=sel[2]}
+C {bus_connect.sym} 3820 2790 1 0 {name=l9 lab=sel[3]}
+C {lab_wire.sym} 3900 2620 0 0 {name=l10 sig_type=std_logic lab=sel[0:3]}
+C {bus_connect.sym} 3310 2550 1 1 {name=l11 lab=addr[0]}
+C {bus_connect.sym} 3310 2630 1 1 {name=l12 lab=addr[1]}
+C {ipin.sym} 3260 2550 0 0 {name=p1 lab=addr[0:1]}

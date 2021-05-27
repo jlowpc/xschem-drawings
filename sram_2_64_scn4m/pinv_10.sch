@@ -15,17 +15,17 @@ N 0 20 30 20 { lab=A}
 N 0 -70 0 20 { lab=A}
 N 70 -120 70 -100 { lab=vdd}
 N 70 50 70 80 { lab=vdd}
-C {devices/ipin.sym} -20 -70 0 0 {name=p1900 lab=A }
-C {devices/opin.sym} 140 -20 0 0 {name=p1901 lab=Z }
-C {devices/nmos-sub.sym} 50 20 0 0 {name=Mpinv_nmos model=n substrate=gnd
+C {ipin.sym} -20 -70 0 0 {name=p1900 lab=A }
+C {opin.sym} 140 -20 0 0 {name=p1901 lab=Z }
+C {nmos-sub.sym} 50 20 0 0 {name=Mpinv_nmos model=n substrate=gnd
 L=0.4u
 W=0.8u
 m=1
 }
-C {devices/pmos-sub.sym} 50 -70 0 0 {name=Mpinv_pmos model=p substrate=vdd
+C {pmos-sub.sym} 50 -70 0 0 {name=Mpinv_pmos model=p substrate=vdd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/lab_pin.sym} 70 -120 0 0 {name=l1 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 70 80 0 0 {name=l2 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 70 -120 0 0 {name=l1 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 70 80 0 0 {name=l2 sig_type=std_logic lab=gnd}

@@ -90,8 +90,8 @@ N 2520 -220 3150 -220 {}
 N 3150 -220 3790 -220 {}
 N 4420 -220 5040 -220 {}
 N 5040 -220 5670 -220 {}
-C {devices/iopin.sym} 1810 -950 3 0 {name=p2 lab=bl[0:7]}
-C {devices/ipin.sym} 1140 -740 0 0 {name=p3 lab=wl[0:15]}
+C {iopin.sym} 1810 -950 3 0 {name=p2 lab=bl[0:7]}
+C {ipin.sym} 1140 -740 0 0 {name=p3 lab=wl[0:15]}
 C {cell_1rw.sym} 1230 20 0 0 {name=xbit_c0[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 1190 -490 0 0 {name=xbit_c0[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
@@ -100,25 +100,25 @@ C {cell_1rw.sym} 1860 20 0 0 {name=xbit_c1[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 1820 -490 0 0 {name=xbit_c1[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/iopin.sym} 1930 -950 3 0 {name=p1 lab=br[0:7]}
-C {devices/bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
-C {devices/bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
-C {devices/bus_connect.sym} 1250 -880 2 0 {name=l3 lab=bl[0]}
-C {devices/bus_connect.sym} 1780 -810 2 0 {name=l4 lab=br[0]}
-C {devices/bus_connect.sym} 1880 -880 2 0 {name=l5 lab=bl[1]}
-C {devices/bus_connect.sym} 2420 -810 2 0 {name=l6 lab=br[1]}
+C {iopin.sym} 1930 -950 3 0 {name=p1 lab=br[0:7]}
+C {bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
+C {bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
+C {bus_connect.sym} 1250 -880 2 0 {name=l3 lab=bl[0]}
+C {bus_connect.sym} 1780 -810 2 0 {name=l4 lab=br[0]}
+C {bus_connect.sym} 1880 -880 2 0 {name=l5 lab=bl[1]}
+C {bus_connect.sym} 2420 -810 2 0 {name=l6 lab=br[1]}
 C {cell_1rw.sym} 2480 20 0 0 {name=xbit_c2[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 2440 -490 0 0 {name=xbit_c2[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 2500 -880 2 0 {name=l7 lab=bl[2]}
-C {devices/bus_connect.sym} 3040 -810 2 0 {name=l8 lab=br[2]}
+C {bus_connect.sym} 2500 -880 2 0 {name=l7 lab=bl[2]}
+C {bus_connect.sym} 3040 -810 2 0 {name=l8 lab=br[2]}
 C {cell_1rw.sym} 3110 20 0 0 {name=xbit_c3[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 3070 -490 0 0 {name=xbit_c3[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 3130 -880 2 0 {name=l9 lab=bl[3]}
-C {devices/bus_connect.sym} 3670 -810 2 0 {name=l10 lab=br[3]}
+C {bus_connect.sym} 3130 -880 2 0 {name=l9 lab=bl[3]}
+C {bus_connect.sym} 3670 -810 2 0 {name=l10 lab=br[3]}
 C {cell_1rw.sym} 3750 20 0 0 {name=xbit_c4[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 3710 -490 0 0 {name=xbit_c4[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
@@ -127,19 +127,19 @@ C {cell_1rw.sym} 4380 20 0 0 {name=xbit_c5[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 4340 -490 0 0 {name=xbit_c5[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 3770 -880 2 0 {name=l11 lab=bl[4]}
-C {devices/bus_connect.sym} 4300 -810 2 0 {name=l12 lab=br[4]}
-C {devices/bus_connect.sym} 4400 -880 2 0 {name=l13 lab=bl[5]}
-C {devices/bus_connect.sym} 4940 -810 2 0 {name=l14 lab=br[5]}
+C {bus_connect.sym} 3770 -880 2 0 {name=l11 lab=bl[4]}
+C {bus_connect.sym} 4300 -810 2 0 {name=l12 lab=br[4]}
+C {bus_connect.sym} 4400 -880 2 0 {name=l13 lab=bl[5]}
+C {bus_connect.sym} 4940 -810 2 0 {name=l14 lab=br[5]}
 C {cell_1rw.sym} 5000 20 0 0 {name=xbit_c6[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 4960 -490 0 0 {name=xbit_c6[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 5020 -880 2 0 {name=l15 lab=bl[6]}
-C {devices/bus_connect.sym} 5560 -810 2 0 {name=l16 lab=br[6]}
+C {bus_connect.sym} 5020 -880 2 0 {name=l15 lab=bl[6]}
+C {bus_connect.sym} 5560 -810 2 0 {name=l16 lab=br[6]}
 C {cell_1rw.sym} 5630 20 0 0 {name=xbit_c7[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 5590 -490 0 0 {name=xbit_c7[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 5650 -880 2 0 {name=l17 lab=bl[7]}
-C {devices/bus_connect.sym} 6190 -810 2 0 {name=l18 lab=br[7]}
+C {bus_connect.sym} 5650 -880 2 0 {name=l17 lab=bl[7]}
+C {bus_connect.sym} 6190 -810 2 0 {name=l18 lab=br[7]}

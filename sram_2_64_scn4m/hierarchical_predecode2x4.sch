@@ -29,25 +29,25 @@ N 450 -330 470 -330 {}
 N 450 -250 470 -250 {}
 N 450 -170 470 -170 {}
 N 450 -80 470 -80 {}
-C {devices/ipin.sym} 60 -330 0 0 {name=p126 lab=in_0 }
-C {devices/ipin.sym} 60 -250 0 0 {name=p127 lab=in_1 }
-C {devices/opin.sym} 470 -330 0 0 {name=p128 lab=out_0 }
-C {devices/opin.sym} 470 -250 0 0 {name=p129 lab=out_1 }
-C {devices/opin.sym} 470 -170 0 0 {name=p130 lab=out_2 }
-C {devices/opin.sym} 470 -80 0 0 {name=p131 lab=out_3 }
+C {ipin.sym} 60 -330 0 0 {name=p126 lab=in_0 }
+C {ipin.sym} 60 -250 0 0 {name=p127 lab=in_1 }
+C {opin.sym} 470 -330 0 0 {name=p128 lab=out_0 }
+C {opin.sym} 470 -250 0 0 {name=p129 lab=out_1 }
+C {opin.sym} 470 -170 0 0 {name=p130 lab=out_2 }
+C {opin.sym} 470 -80 0 0 {name=p131 lab=out_3 }
 C {pinv.sym} 130 -240 0 0 {name=xpre_inv_0 vdd=vdd gnd=gnd}
 C {pinv.sym} 130 -160 0 0 {name=xpre_inv_1 vdd=vdd gnd=gnd}
 C {and2_dec.sym} 410 -250 0 0 {name=xXpre2x4_and_0 vdd=vdd gnd=gnd}
 C {and2_dec.sym} 410 -170 0 0 {name=xXpre2x4_and_1 vdd=vdd gnd=gnd}
 C {and2_dec.sym} 410 -90 0 0 {name=xXpre2x4_and_2 vdd=vdd gnd=gnd}
 C {and2_dec.sym} 410 0 0 0 {name=xXpre2x4_and_3 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 230 -330 0 0 {name=l1 sig_type=std_logic lab=inbar_0 }
-C {devices/lab_wire.sym} 230 -250 0 0 {name=l2 sig_type=std_logic lab=inbar_1}
-C {devices/lab_wire.sym} 330 -320 0 0 {name=l4 sig_type=std_logic lab=inbar_1}
-C {devices/lab_pin.sym} 330 -260 0 0 {name=l5 sig_type=std_logic lab=in_0}
-C {devices/lab_wire.sym} 330 -240 0 0 {name=l6 sig_type=std_logic lab=inbar_1}
-C {devices/lab_wire.sym} 330 -340 0 0 {name=l3 sig_type=std_logic lab=inbar_0 }
-C {devices/lab_pin.sym} 330 -160 0 0 {name=l7 sig_type=std_logic lab=in_1}
-C {devices/lab_wire.sym} 330 -180 0 0 {name=l8 sig_type=std_logic lab=inbar_0}
-C {devices/lab_pin.sym} 330 -70 0 0 {name=l9 sig_type=std_logic lab=in_1}
-C {devices/lab_pin.sym} 330 -90 0 0 {name=l10 sig_type=std_logic lab=in_0}
+C {lab_wire.sym} 230 -330 0 0 {name=l1 sig_type=std_logic lab=inbar_0 }
+C {lab_wire.sym} 230 -250 0 0 {name=l2 sig_type=std_logic lab=inbar_1}
+C {lab_wire.sym} 330 -320 0 0 {name=l4 sig_type=std_logic lab=inbar_1}
+C {lab_pin.sym} 330 -260 0 0 {name=l5 sig_type=std_logic lab=in_0}
+C {lab_wire.sym} 330 -240 0 0 {name=l6 sig_type=std_logic lab=inbar_1}
+C {lab_wire.sym} 330 -340 0 0 {name=l3 sig_type=std_logic lab=inbar_0 }
+C {lab_pin.sym} 330 -160 0 0 {name=l7 sig_type=std_logic lab=in_1}
+C {lab_wire.sym} 330 -180 0 0 {name=l8 sig_type=std_logic lab=inbar_0}
+C {lab_pin.sym} 330 -70 0 0 {name=l9 sig_type=std_logic lab=in_1}
+C {lab_pin.sym} 330 -90 0 0 {name=l10 sig_type=std_logic lab=in_0}
