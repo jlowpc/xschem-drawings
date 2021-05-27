@@ -17,9 +17,9 @@ N 60 -60 80 -60 { lab=A}
 N 60 -40 80 -40 { lab=B}
 N 180 -50 220 -50 { lab=xxx}
 N 300 -50 330 -50 { lab=Z}
-C {devices/ipin.sym} 60 -60 0 0 {name=p638 lab=A }
-C {devices/ipin.sym} 60 -40 0 0 {name=p639 lab=B }
-C {devices/opin.sym} 330 -50 0 0 {name=p640 lab=Z }
+C {ipin.sym} 60 -60 0 0 {name=p638 lab=A }
+C {ipin.sym} 60 -40 0 0 {name=p639 lab=B }
+C {opin.sym} 330 -50 0 0 {name=p640 lab=Z }
 C {pnand2.sym} 80 30 0 0 {name=xpand2_dec_nand vdd=vdd gnd=gnd}
 C {pinv.sym} 260 40 0 0 {name=xpand2_dec_inv vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 210 -50 0 0 {name=l1 sig_type=std_logic lab=zb_int}
+C {lab_wire.sym} 210 -50 0 0 {name=l1 sig_type=std_logic lab=zb_int}

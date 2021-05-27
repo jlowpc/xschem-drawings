@@ -37,42 +37,42 @@ N 700 -10 730 -10 { lab=#net1}
 N 640 -30 640 10 { lab=#net1}
 N 640 -10 700 -10 { lab=#net1}
 N 700 -10 700 140 {}
-C {devices/iopin.sym} 410 -10 0 1 {name=p729 lab=bl }
-C {devices/iopin.sym} 840 -10 0 0 {name=p730 lab=br }
-C {devices/iopin.sym} 410 -140 0 1 {name=p731 lab=wl }
-C {devices/nmos-sub.sym} 500 -30 1 0 {name=M1004 model=n substrate=gnd
+C {iopin.sym} 410 -10 0 1 {name=p729 lab=bl }
+C {iopin.sym} 840 -10 0 0 {name=p730 lab=br }
+C {iopin.sym} 410 -140 0 1 {name=p731 lab=wl }
+C {nmos-sub.sym} 500 -30 1 0 {name=M1004 model=n substrate=gnd
 L=0.4u
 W=0.8u
 m=1
 }
-C {devices/pmos-sub.sym} 620 -60 0 0 {name=M1001 model=p substrate=vdd
+C {pmos-sub.sym} 620 -60 0 0 {name=M1001 model=p substrate=vdd
 L=0.8u
 W=0.6u
 m=1
 }
-C {devices/nmos-sub.sym} 620 40 0 0 {name=M1003 model=n substrate=gnd
+C {nmos-sub.sym} 620 40 0 0 {name=M1003 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 660 240 0 1 {name=M1002 model=n substrate=gnd
+C {nmos-sub.sym} 660 240 0 1 {name=M1002 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 660 140 0 1 {name=M1000 model=p substrate=vdd
+C {pmos-sub.sym} 660 140 0 1 {name=M1000 model=p substrate=vdd
 L=0.8u
 W=0.6u
 m=1
 }
-C {devices/nmos-sub.sym} 760 -30 1 0 {name=M1005 model=n substrate=gnd
+C {nmos-sub.sym} 760 -30 1 0 {name=M1005 model=n substrate=gnd
 L=0.4u
 W=0.8u
 m=1
 }
-C {devices/lab_pin.sym} 640 80 0 0 {name=l1 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 640 100 0 1 {name=l2 sig_type=std_logic lab=vdd}
-C {devices/lab_wire.sym} 560 -10 0 0 {name=l3 sig_type=std_logic lab=Q}
-C {devices/lab_pin.sym} 640 280 0 0 {name=l5 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 640 -110 0 1 {name=l6 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 720 -10 1 1 {name=l8 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 640 80 0 0 {name=l1 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 640 100 0 1 {name=l2 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 560 -10 0 0 {name=l3 sig_type=std_logic lab=Q}
+C {lab_pin.sym} 640 280 0 0 {name=l5 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 640 -110 0 1 {name=l6 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 720 -10 1 1 {name=l8 sig_type=std_logic lab=vdd}

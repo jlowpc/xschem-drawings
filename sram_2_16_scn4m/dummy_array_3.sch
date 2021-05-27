@@ -19,6 +19,6 @@ N -50 -160 -20 -160 { lab=bl[0]}
 N -50 -290 -20 -290 { lab=wl[0:18]}
 C {dummy_cell_1rw.sch} -410 -110 0 0 {name=xbit_r[0:18] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 }
-C {devices/iopin.sym} 480 -160 0 0 {name=p1191 lab=br[0]}
-C {devices/iopin.sym} -50 -160 0 1 {name=p1190 lab=bl[0]}
-C {devices/ipin.sym} -50 -290 0 0 {name=p1 lab=wl[0:18]}
+C {iopin.sym} 480 -160 0 0 {name=p1191 lab=br[0]}
+C {iopin.sym} -50 -160 0 1 {name=p1190 lab=bl[0]}
+C {ipin.sym} -50 -290 0 0 {name=p1 lab=wl[0:18]}

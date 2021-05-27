@@ -39,19 +39,19 @@ N 1220 1280 1220 1420 { lab=bl[0:1]}
 N 910 1280 1220 1280 { lab=bl[0:1]}
 N 2080 1280 2080 1420 { lab=br[0:1]}
 N 2080 1280 2210 1280 { lab=br[0:1]}
-C {devices/iopin.sym} 850 1100 0 1 {name=p1572 lab=rbl_bl }
-C {devices/iopin.sym} 2270 1100 0 0 {name=p1573 lab=rbl_br }
-C {devices/iopin.sym} 850 110 2 0 {name=p1574 lab=bl[0:1]}
-C {devices/iopin.sym} 2270 120 0 0 {name=p1575 lab=br[0:1]}
-C {devices/opin.sym} 2270 1810 0 0 {name=p1578 lab=dout[0:1]}
-C {devices/ipin.sym} 850 310 0 0 {name=p1580 lab=din[0:1]}
-C {devices/ipin.sym} 850 1660 0 0 {name=p1582 lab=s_en }
-C {devices/ipin.sym} 850 1030 0 0 {name=p1583 lab=p_en_bar }
-C {devices/ipin.sym} 850 600 0 0 {name=p1584 lab=w_en }
+C {iopin.sym} 850 1100 0 1 {name=p1572 lab=rbl_bl }
+C {iopin.sym} 2270 1100 0 0 {name=p1573 lab=rbl_br }
+C {iopin.sym} 850 110 2 0 {name=p1574 lab=bl[0:1]}
+C {iopin.sym} 2270 120 0 0 {name=p1575 lab=br[0:1]}
+C {opin.sym} 2270 1810 0 0 {name=p1578 lab=dout[0:1]}
+C {ipin.sym} 850 310 0 0 {name=p1580 lab=din[0:1]}
+C {ipin.sym} 850 1660 0 0 {name=p1582 lab=s_en }
+C {ipin.sym} 850 1030 0 0 {name=p1583 lab=p_en_bar }
+C {ipin.sym} 850 600 0 0 {name=p1584 lab=w_en }
 C {precharge_array.sch} 900 1550 0 0 {name=xprecharge_array0 vdd=vdd gnd=gnd}
 C {write_driver_array.sch} 700 620 0 0 {name=xwrite_driver_array0 vdd=vdd gnd=gnd}
 C {sense_amp_array.sch} 500 1940 0 0 {name=xsense_amp_array0 vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 2080 1280 2 0 {name=l3 lab=br[0]}
-C {devices/bus_connect.sym} 2080 1420 2 0 {name=l4 lab=br[1]}
-C {devices/bus_connect.sym} 1220 1280 1 0 {name=l1 lab=bl[0]}
-C {devices/bus_connect.sym} 1220 1420 1 0 {name=l2 lab=bl[1]}
+C {bus_connect.sym} 2080 1280 2 0 {name=l3 lab=br[0]}
+C {bus_connect.sym} 2080 1420 2 0 {name=l4 lab=br[1]}
+C {bus_connect.sym} 1220 1280 1 0 {name=l1 lab=bl[0]}
+C {bus_connect.sym} 1220 1420 1 0 {name=l2 lab=bl[1]}

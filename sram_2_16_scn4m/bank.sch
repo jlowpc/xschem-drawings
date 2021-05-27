@@ -52,19 +52,19 @@ N 5650 -300 5650 2980 { lab=rbl_br[0]}
 N 5330 3690 5760 3690 { lab=dout[0:1]}
 N 3680 -300 3680 2980 { lab=rbl_bl[0]}
 N 3680 -300 3830 -300 { lab=rbl_bl[0]}
-C {devices/opin.sym} 5760 3690 0 0 {name=p1651 lab=dout[0:1]}
-C {devices/opin.sym} 3260 2980 0 1 {name=p1653 lab=rbl_bl[0]}
-C {devices/ipin.sym} 3260 2190 0 0 {name=p1654 lab=din[0:1]}
-C {devices/ipin.sym} 3260 1020 0 0 {name=p1656 lab=addr[0:3]}
-C {devices/ipin.sym} 3260 3540 0 0 {name=p1660 lab=s_en0 }
-C {devices/ipin.sym} 3260 2910 0 0 {name=p1661 lab=p_en_bar0 }
-C {devices/ipin.sym} 3260 2480 0 0 {name=p1662 lab=w_en0 }
-C {devices/ipin.sym} 3260 1100 0 0 {name=p1663 lab=wl_en0 }
+C {opin.sym} 5760 3690 0 0 {name=p1651 lab=dout[0:1]}
+C {opin.sym} 3260 2980 0 1 {name=p1653 lab=rbl_bl[0]}
+C {ipin.sym} 3260 2190 0 0 {name=p1654 lab=din[0:1]}
+C {ipin.sym} 3260 1020 0 0 {name=p1656 lab=addr[0:3]}
+C {ipin.sym} 3260 3540 0 0 {name=p1660 lab=s_en0 }
+C {ipin.sym} 3260 2910 0 0 {name=p1661 lab=p_en_bar0 }
+C {ipin.sym} 3260 2480 0 0 {name=p1662 lab=w_en0 }
+C {ipin.sym} 3260 1100 0 0 {name=p1663 lab=wl_en0 }
 C {replica_bitcell_array.sch} 3230 -210 0 0 {name=xbitcell_array vdd=vdd gnd=gnd}
 C {port_data.sch} 3060 1880 0 0 {name=xport_data0 vdd=vdd gnd=gnd}
 C {port_address.sym} 3470 1200 0 0 {name=xport_address0 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 3670 1050 0 0 {name=l1 lab=rbl_wl[0]}
-C {devices/lab_wire.sym} 3670 1030 0 0 {name=l2 lab=w[0:15]}
-C {devices/lab_wire.sym} 5650 2950 0 0 {name=l3 sig_type=std_logic lab=rbl_br[0]}
-C {devices/lab_wire.sym} 3850 1990 0 0 {name=l4 sig_type=std_logic lab=bl[0:1]}
-C {devices/lab_wire.sym} 5430 2000 0 0 {name=l5 sig_type=std_logic lab=br[0:1]}
+C {lab_wire.sym} 3670 1050 0 0 {name=l1 lab=rbl_wl[0]}
+C {lab_wire.sym} 3670 1030 0 0 {name=l2 lab=w[0:15]}
+C {lab_wire.sym} 5650 2950 0 0 {name=l3 sig_type=std_logic lab=rbl_br[0]}
+C {lab_wire.sym} 3850 1990 0 0 {name=l4 sig_type=std_logic lab=bl[0:1]}
+C {lab_wire.sym} 5430 2000 0 0 {name=l5 sig_type=std_logic lab=br[0:1]}

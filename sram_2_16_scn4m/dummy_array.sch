@@ -25,12 +25,12 @@ N 510 -180 540 -180 { lab=br[0]}
 N 550 -190 550 -70 { lab=br[0:1]}
 N 550 -70 570 -70 { lab=br[0:1]}
 N 30 -70 40 -70 { lab=bl[0:1]}
-C {devices/iopin.sym} 30 -70 0 1 {name=p1056 lab=bl[0:1]}
-C {devices/iopin.sym} 570 -70 0 0 {name=p1057 lab=br[0:1]}
-C {devices/ipin.sym} 30 -210 0 0 {name=p1058 lab=wl[0]}
+C {iopin.sym} 30 -70 0 1 {name=p1056 lab=bl[0:1]}
+C {iopin.sym} 570 -70 0 0 {name=p1057 lab=br[0:1]}
+C {ipin.sym} 30 -210 0 0 {name=p1058 lab=wl[0]}
 C {dummy_cell_1rw.sym} 270 -200 0 0 {name=xbit_r0_c0 vdd=vdd gnd=gnd}
 C {dummy_cell_1rw.sym} 270 -80 0 0 {name=xbit_r0_c1 vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 40 -190 2 1 {name=l1 lab=bl[0]}
-C {devices/bus_connect.sym} 40 -70 2 1 {name=l2 lab=bl[1]}
-C {devices/bus_connect.sym} 550 -190 2 0 {name=l3 lab=br[0]}
-C {devices/bus_connect.sym} 550 -70 2 0 {name=l4 lab=br[1]}
+C {bus_connect.sym} 40 -190 2 1 {name=l1 lab=bl[0]}
+C {bus_connect.sym} 40 -70 2 1 {name=l2 lab=bl[1]}
+C {bus_connect.sym} 550 -190 2 0 {name=l3 lab=br[0]}
+C {bus_connect.sym} 550 -70 2 0 {name=l4 lab=br[1]}

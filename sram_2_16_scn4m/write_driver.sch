@@ -71,39 +71,39 @@ N 540 -340 540 -320 { lab=gnd}
 N 1120 -220 1120 -160 {}
 N 1080 -220 1120 -220 {}
 N 910 120 1100 120 {}
-C {devices/iopin.sym} 440 -220 0 1 {name=p1519 lab=din }
-C {devices/iopin.sym} 440 -420 0 1 {name=p1520 lab=bl }
-C {devices/iopin.sym} 1250 70 0 0 {name=p1521 lab=br }
-C {devices/iopin.sym} 440 70 0 1 {name=p1522 lab=en }
-C {devices/nmos-sub.sym} 510 -110 0 0 {name=M_1 model=n substrate=gnd
+C {iopin.sym} 440 -220 0 1 {name=p1519 lab=din }
+C {iopin.sym} 440 -420 0 1 {name=p1520 lab=bl }
+C {iopin.sym} 1250 70 0 0 {name=p1521 lab=br }
+C {iopin.sym} 440 70 0 1 {name=p1522 lab=en }
+C {nmos-sub.sym} 510 -110 0 0 {name=M_1 model=n substrate=gnd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/pmos-sub.sym} 510 -220 0 0 {name=M_2 model=p substrate=vdd
+C {pmos-sub.sym} 510 -220 0 0 {name=M_2 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/lab_wire.sym} 600 -160 0 0 {name=l1 sig_type=std_logic lab=din_bar}
-C {devices/lab_pin.sym} 530 -270 0 0 {name=l2 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 530 -60 0 0 {name=l3 sig_type=std_logic lab=gnd}
-C {devices/pmos-sub.sym} 510 70 0 0 {name=M_6 model=p substrate=vdd
+C {lab_wire.sym} 600 -160 0 0 {name=l1 sig_type=std_logic lab=din_bar}
+C {lab_pin.sym} 530 -270 0 0 {name=l2 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 530 -60 0 0 {name=l3 sig_type=std_logic lab=gnd}
+C {pmos-sub.sym} 510 70 0 0 {name=M_6 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/pmos-sub.sym} 680 70 0 0 {name=M_5 model=p substrate=vdd
+C {pmos-sub.sym} 680 70 0 0 {name=M_5 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/nmos-sub.sym} 600 170 0 0 {name=M_3 model=n substrate=gnd
+C {nmos-sub.sym} 600 170 0 0 {name=M_3 model=n substrate=gnd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/nmos-sub.sym} 600 270 0 0 {name=M_4
+C {nmos-sub.sym} 600 270 0 0 {name=M_4
 L=0.4
 W=1.4
 body=gnd
@@ -118,71 +118,71 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/lab_pin.sym} 620 320 0 0 {name=l4 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 530 20 0 0 {name=l5 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 700 20 0 0 {name=l6 sig_type=std_logic lab=vdd}
-C {devices/lab_wire.sym} 790 120 0 0 {name=l7 sig_type=std_logic lab=din_bar_gated}
-C {devices/nmos-sub.sym} 890 180 0 0 {name=M_7 model=n substrate=gnd
+C {lab_pin.sym} 620 320 0 0 {name=l4 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 530 20 0 0 {name=l5 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 700 20 0 0 {name=l6 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 790 120 0 0 {name=l7 sig_type=std_logic lab=din_bar_gated}
+C {nmos-sub.sym} 890 180 0 0 {name=M_7 model=n substrate=gnd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/pmos-sub.sym} 890 70 0 0 {name=M_8 model=p substrate=vdd
+C {pmos-sub.sym} 890 70 0 0 {name=M_8 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/lab_pin.sym} 910 20 0 0 {name=l8 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 910 230 0 0 {name=l9 sig_type=std_logic lab=gnd}
-C {devices/lab_wire.sym} 1050 120 0 0 {name=l10 sig_type=std_logic lab=din_bar_gated_bar}
-C {devices/pmos-sub.sym} 1150 -420 0 1 {name=M_9 model=p substrate=vdd
+C {lab_pin.sym} 910 20 0 0 {name=l8 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 910 230 0 0 {name=l9 sig_type=std_logic lab=gnd}
+C {lab_wire.sym} 1050 120 0 0 {name=l10 sig_type=std_logic lab=din_bar_gated_bar}
+C {pmos-sub.sym} 1150 -420 0 1 {name=M_9 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/pmos-sub.sym} 980 -420 0 1 {name=M_12 model=p substrate=vdd
+C {pmos-sub.sym} 980 -420 0 1 {name=M_12 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/nmos-sub.sym} 1060 -320 0 1 {name=M_10 model=n substrate=gnd
+C {nmos-sub.sym} 1060 -320 0 1 {name=M_10 model=n substrate=gnd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/nmos-sub.sym} 1060 -220 0 1 {name=M_11 model=n substrate=gnd
+C {nmos-sub.sym} 1060 -220 0 1 {name=M_11 model=n substrate=gnd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/lab_pin.sym} 1040 -170 0 1 {name=l11 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 1130 -470 0 1 {name=l12 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 960 -470 0 1 {name=l13 sig_type=std_logic lab=vdd}
-C {devices/lab_wire.sym} 870 -370 0 1 {name=l14 sig_type=std_logic lab=din_gated}
-C {devices/nmos-sub.sym} 770 -310 0 1 {name=M_14 model=n substrate=gnd
+C {lab_pin.sym} 1040 -170 0 1 {name=l11 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 1130 -470 0 1 {name=l12 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 960 -470 0 1 {name=l13 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 870 -370 0 1 {name=l14 sig_type=std_logic lab=din_gated}
+C {nmos-sub.sym} 770 -310 0 1 {name=M_14 model=n substrate=gnd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/pmos-sub.sym} 770 -420 0 1 {name=M_13 model=p substrate=vdd
+C {pmos-sub.sym} 770 -420 0 1 {name=M_13 model=p substrate=vdd
 L=0.4u
 W=1.4u
 m=1
 }
-C {devices/lab_pin.sym} 750 -470 0 1 {name=l15 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 750 -260 0 1 {name=l16 sig_type=std_logic lab=gnd}
-C {devices/lab_wire.sym} 610 -370 0 1 {name=l17 sig_type=std_logic lab=din_gated_bar}
-C {devices/lab_pin.sym} 1210 -420 0 1 {name=l18 sig_type=std_logic lab=en}
-C {devices/nmos-sub.sym} 560 -370 0 1 {name=M_15 model=n substrate=gnd
+C {lab_pin.sym} 750 -470 0 1 {name=l15 sig_type=std_logic lab=vdd}
+C {lab_pin.sym} 750 -260 0 1 {name=l16 sig_type=std_logic lab=gnd}
+C {lab_wire.sym} 610 -370 0 1 {name=l17 sig_type=std_logic lab=din_gated_bar}
+C {lab_pin.sym} 1210 -420 0 1 {name=l18 sig_type=std_logic lab=en}
+C {nmos-sub.sym} 560 -370 0 1 {name=M_15 model=n substrate=gnd
 L=0.4u
 W=2.4u
 m=1
 spiceprefix=X
 }
-C {devices/nmos-sub.sym} 1120 120 0 0 {name=M_16 model=n substrate=gnd
+C {nmos-sub.sym} 1120 120 0 0 {name=M_16 model=n substrate=gnd
 L=0.4u
 W=2.4u
 m=1
 }
-C {devices/lab_pin.sym} 540 -320 0 1 {name=l19 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 1140 170 0 0 {name=l20 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 540 -320 0 1 {name=l19 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 1140 170 0 0 {name=l20 sig_type=std_logic lab=gnd}
