@@ -11,9 +11,9 @@ E {}
 N 170 -70 210 -70 { lab=Z}
 N -70 -70 -30 -70 { lab=A}
 N 50 -70 90 -70 { lab=Zb1_int}
-C {devices/ipin.sym} -70 -70 0 0 {name=p1863 lab=A }
-C {devices/opin.sym} 210 -70 0 0 {name=p1864 lab=Z }
+C {ipin.sym} -70 -70 0 0 {name=p1863 lab=A }
+C {opin.sym} 210 -70 0 0 {name=p1864 lab=Z }
 C {pinv_5.sym} 0 -70 0 0 {name=xbuf_inv1 }
 C {pinv_9.sym} 120 -70 0 0 {name=xbuf_inv2 }
-C {devices/lab_wire.sym} 80 -70 0 0 {name=l1 sig_type=std_logic lab=Zb1_int}
+C {lab_wire.sym} 80 -70 0 0 {name=l1 sig_type=std_logic lab=Zb1_int}
 C {yxt_title.sym} -60 30 0 0 {name=l2 author="Joanne Low" note="Circuits created by Openram"}

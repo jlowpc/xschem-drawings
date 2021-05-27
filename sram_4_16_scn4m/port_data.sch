@@ -32,18 +32,18 @@ N 2130 120 2180 120 { lab=br[0:3]}
 N 1070 1300 1350 1300 { lab=bl[0:3]}
 N 1900 1300 2130 1300 { lab=br[0:3]}
 N 1000 110 1120 110 { lab=bl[0:3]}
-C {devices/iopin.sym} 1000 1100 0 1 {name=p1572 lab=rbl_bl }
-C {devices/iopin.sym} 2180 1100 0 0 {name=p1573 lab=rbl_br }
-C {devices/iopin.sym} 1000 110 2 0 {name=p1574 lab=bl[0:3]}
-C {devices/iopin.sym} 2180 120 0 0 {name=p1575 lab=br[0:3]}
-C {devices/opin.sym} 2180 1810 0 0 {name=p1578 lab=dout[0:3]}
-C {devices/ipin.sym} 1000 310 0 0 {name=p1580 lab=din[0:3]}
-C {devices/ipin.sym} 1000 1660 0 0 {name=p1582 lab=s_en }
-C {devices/ipin.sym} 1000 1030 0 0 {name=p1583 lab=p_en_bar }
-C {devices/ipin.sym} 1000 600 0 0 {name=p1584 lab=w_en }
+C {iopin.sym} 1000 1100 0 1 {name=p1572 lab=rbl_bl }
+C {iopin.sym} 2180 1100 0 0 {name=p1573 lab=rbl_br }
+C {iopin.sym} 1000 110 2 0 {name=p1574 lab=bl[0:3]}
+C {iopin.sym} 2180 120 0 0 {name=p1575 lab=br[0:3]}
+C {opin.sym} 2180 1810 0 0 {name=p1578 lab=dout[0:3]}
+C {ipin.sym} 1000 310 0 0 {name=p1580 lab=din[0:3]}
+C {ipin.sym} 1000 1660 0 0 {name=p1582 lab=s_en }
+C {ipin.sym} 1000 1030 0 0 {name=p1583 lab=p_en_bar }
+C {ipin.sym} 1000 600 0 0 {name=p1584 lab=w_en }
 C {precharge_array.sch} 900 1550 0 0 {name=xprecharge_array0 vdd=vdd gnd=gnd}
 C {write_driver_array.sch} 700 620 0 0 {name=xwrite_driver_array0 vdd=vdd gnd=gnd}
 C {sense_amp_array.sch} 500 1940 0 0 {name=xsense_amp_array0 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 1330 1300 0 0 {name=l2 sig_type=std_logic lab=bl[0:3]}
-C {devices/lab_wire.sym} 1970 1300 0 0 {name=l1 sig_type=std_logic lab=br[0:3]}
+C {lab_wire.sym} 1330 1300 0 0 {name=l2 sig_type=std_logic lab=bl[0:3]}
+C {lab_wire.sym} 1970 1300 0 0 {name=l1 sig_type=std_logic lab=br[0:3]}
 C {yxt_title.sym} 1220 2230 0 0 {name=l3 author="Joanne Low" note="Circuits created by Openram"}

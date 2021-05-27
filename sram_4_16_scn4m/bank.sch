@@ -37,20 +37,20 @@ N 3840 -840 4050 -840 { lab=rbl_bl[0]}
 N 6740 510 7070 510 { lab=br[0:3]}
 N 3880 300 4050 300 { lab=rbl_wl[0]}
 N 3930 510 4050 510 { lab=bl[0:3]}
-C {devices/opin.sym} 7320 3700 0 0 {name=p1651 lab=dout[0:3]}
-C {devices/opin.sym} 3420 2990 0 1 {name=p1653 lab=rbl_bl[0]}
-C {devices/ipin.sym} 3420 2200 0 0 {name=p1654 lab=din[0:3]}
-C {devices/ipin.sym} 3420 1030 0 0 {name=p1656 lab=addr[0:3]}
-C {devices/ipin.sym} 3420 3550 0 0 {name=p1660 lab=s_en0 }
-C {devices/ipin.sym} 3420 2920 0 0 {name=p1661 lab=p_en_bar0 }
-C {devices/ipin.sym} 3420 2490 0 0 {name=p1662 lab=w_en0 }
-C {devices/ipin.sym} 3420 1110 0 0 {name=p1663 lab=wl_en0 }
+C {opin.sym} 7320 3700 0 0 {name=p1651 lab=dout[0:3]}
+C {opin.sym} 3420 2990 0 1 {name=p1653 lab=rbl_bl[0]}
+C {ipin.sym} 3420 2200 0 0 {name=p1654 lab=din[0:3]}
+C {ipin.sym} 3420 1030 0 0 {name=p1656 lab=addr[0:3]}
+C {ipin.sym} 3420 3550 0 0 {name=p1660 lab=s_en0 }
+C {ipin.sym} 3420 2920 0 0 {name=p1661 lab=p_en_bar0 }
+C {ipin.sym} 3420 2490 0 0 {name=p1662 lab=w_en0 }
+C {ipin.sym} 3420 1110 0 0 {name=p1663 lab=wl_en0 }
 C {replica_bitcell_array.sch} 3450 -200 0 0 {name=xbitcell_array vdd=vdd gnd=gnd}
 C {port_data.sch} 3690 1890 0 0 {name=xport_data0 vdd=vdd gnd=gnd}
 C {port_address.sym} 3630 1210 0 0 {name=xport_address0 vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 3830 1060 0 0 {name=l1 lab=rbl_wl[0]}
-C {devices/lab_wire.sym} 3830 1040 0 0 {name=l2 lab=w[0:15]}
-C {devices/lab_wire.sym} 7210 2960 0 0 {name=l3 sig_type=std_logic lab=rbl_br[0]}
-C {devices/lab_wire.sym} 4010 2000 0 0 {name=l4 sig_type=std_logic lab=bl[0:3]}
-C {devices/lab_wire.sym} 6990 2010 0 0 {name=l5 sig_type=std_logic lab=br[0:3]}
+C {lab_wire.sym} 3830 1060 0 0 {name=l1 lab=rbl_wl[0]}
+C {lab_wire.sym} 3830 1040 0 0 {name=l2 lab=w[0:15]}
+C {lab_wire.sym} 7210 2960 0 0 {name=l3 sig_type=std_logic lab=rbl_br[0]}
+C {lab_wire.sym} 4010 2000 0 0 {name=l4 sig_type=std_logic lab=bl[0:3]}
+C {lab_wire.sym} 6990 2010 0 0 {name=l5 sig_type=std_logic lab=br[0:3]}
 C {yxt_title.sym} 3110 4240 0 0 {name=l6 author="Joanne Low" note="Circuits created by Openram"}

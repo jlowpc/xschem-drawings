@@ -20,12 +20,12 @@ N 220 -920 220 -830 { lab=Qb}
 N 300 -830 350 -830 { lab=Q}
 N -50 -940 -20 -940 { lab=D}
 N -50 -870 -20 -870 { lab=clk}
-C {devices/ipin.sym} -50 -940 0 0 {name=p1687 lab=D }
-C {devices/opin.sym} 350 -830 0 0 {name=p1688 lab=Q }
-C {devices/opin.sym} 350 -920 0 0 {name=p1689 lab=Qb }
-C {devices/ipin.sym} -50 -870 0 0 {name=p1690 lab=clk }
+C {ipin.sym} -50 -940 0 0 {name=p1687 lab=D }
+C {opin.sym} 350 -830 0 0 {name=p1688 lab=Q }
+C {opin.sym} 350 -920 0 0 {name=p1689 lab=Qb }
+C {ipin.sym} -50 -870 0 0 {name=p1690 lab=clk }
 C {dff.sym} 110 -910 0 0 {name=xdff_buf_dff vdd=vdd gnd=gnd}
-C {devices/lab_wire.sym} 100 -920 0 0 {name=l1679 lab=qint }
+C {lab_wire.sym} 100 -920 0 0 {name=l1679 lab=qint }
 C {pinv_0.sym} 150 -920 0 0 {name=xdff_buf_inv1 vdd=vdd gnd=gnd}
 C {pinv_1.sym} 250 -830 0 0 {name=xdff_buf_inv2 vdd=vdd gnd=gnd}
 C {yxt_title.sym} 100 -690 0 0 {name=l1 author="Joanne Low" note="Circuits created by Openram"}

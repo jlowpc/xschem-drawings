@@ -21,8 +21,8 @@ T {@name} 300 -360 0 0 0.4 0.4 {}
 N 190 -290 230 -290 { lab=din[0:3]}
 N 190 -220 230 -220 { lab=clk}
 N 310 -270 360 -270 { lab=dout[0:3]}
-C {devices/ipin.sym} 190 -290 0 0 {name=p46 lab=din[0:3]}
-C {devices/opin.sym} 360 -270 0 0 {name=p48 lab=dout[0:3]}
-C {devices/ipin.sym} 190 -220 0 0 {name=p50 lab=clk }
+C {ipin.sym} 190 -290 0 0 {name=p46 lab=din[0:3]}
+C {opin.sym} 360 -270 0 0 {name=p48 lab=dout[0:3]}
+C {ipin.sym} 190 -220 0 0 {name=p50 lab=clk }
 C {dff.sym} 360 -260 0 0 {name=xdff_r0_c[0:3]}
 C {yxt_title.sym} 190 -140 0 0 {name=l1 author="Joanne Low" note="Circuits created by Openram"}

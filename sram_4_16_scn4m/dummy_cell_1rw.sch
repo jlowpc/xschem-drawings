@@ -41,49 +41,49 @@ N 810 -50 820 -50 { lab=br}
 N 810 -50 810 -30 { lab=br}
 N 390 -50 400 -50 { lab=bl}
 N 400 -50 400 -30 { lab=bl}
-C {devices/iopin.sym} 390 -50 0 1 {name=p921 lab=bl }
-C {devices/iopin.sym} 820 -50 0 0 {name=p922 lab=br }
-C {devices/iopin.sym} 390 -180 0 1 {name=p731 lab=wl }
-C {devices/nmos-sub.sym} 480 -70 1 0 {name=M1004 model=n substrate=gnd
+C {iopin.sym} 390 -50 0 1 {name=p921 lab=bl }
+C {iopin.sym} 820 -50 0 0 {name=p922 lab=br }
+C {iopin.sym} 390 -180 0 1 {name=p731 lab=wl }
+C {nmos-sub.sym} 480 -70 1 0 {name=M1004 model=n substrate=gnd
 L=0.4u
 W=0.8u
 m=1
 }
-C {devices/pmos-sub.sym} 600 -100 0 0 {name=M1001 model=p substrate=vdd
+C {pmos-sub.sym} 600 -100 0 0 {name=M1001 model=p substrate=vdd
 L=0.8u
 W=0.6u
 m=1
 }
-C {devices/nmos-sub.sym} 600 0 0 0 {name=M1003 model=n substrate=gnd
+C {nmos-sub.sym} 600 0 0 0 {name=M1003 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 640 200 0 1 {name=M1002 model=n substrate=gnd
+C {nmos-sub.sym} 640 200 0 1 {name=M1002 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 640 100 0 1 {name=M1000 model=p substrate=vdd
+C {pmos-sub.sym} 640 100 0 1 {name=M1000 model=p substrate=vdd
 L=0.8u
 W=0.6u
 m=1
 }
-C {devices/nmos-sub.sym} 740 -70 1 0 {name=M1005 model=n substrate=gnd
+C {nmos-sub.sym} 740 -70 1 0 {name=M1005 model=n substrate=gnd
 L=0.4u
 W=0.8u
 m=1
 }
-C {devices/lab_pin.sym} 620 40 0 0 {name=l1 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 620 60 0 1 {name=l2 sig_type=std_logic lab=vdd}
-C {devices/lab_wire.sym} 540 -50 0 0 {name=l3 sig_type=std_logic lab=Q}
-C {devices/lab_wire.sym} 680 -50 0 0 {name=l4 sig_type=std_logic lab=Q_bar}
-C {devices/lab_pin.sym} 620 240 0 0 {name=l5 sig_type=std_logic lab=gnd}
-C {devices/lab_pin.sym} 620 -150 0 1 {name=l6 sig_type=std_logic lab=vdd}
-C {devices/noconn.sym} 430 -50 0 0 {name=bl_noconn}
-C {devices/noconn.sym} 790 -50 0 1 {name=br_noconn}
-C {devices/lab_wire.sym} 440 -50 1 1 {name=l7 sig_type=std_logic lab=bl_noconn}
-C {devices/lab_wire.sym} 770 -50 1 1 {name=l8 sig_type=std_logic lab=br_noconn}
-C {devices/noconn.sym} 810 -30 1 1 {name=br_noconn1}
-C {devices/noconn.sym} 400 -30 3 0 {name=br_noconn2}
+C {lab_pin.sym} 620 40 0 0 {name=l1 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 620 60 0 1 {name=l2 sig_type=std_logic lab=vdd}
+C {lab_wire.sym} 540 -50 0 0 {name=l3 sig_type=std_logic lab=Q}
+C {lab_wire.sym} 680 -50 0 0 {name=l4 sig_type=std_logic lab=Q_bar}
+C {lab_pin.sym} 620 240 0 0 {name=l5 sig_type=std_logic lab=gnd}
+C {lab_pin.sym} 620 -150 0 1 {name=l6 sig_type=std_logic lab=vdd}
+C {noconn.sym} 430 -50 0 0 {name=bl_noconn}
+C {noconn.sym} 790 -50 0 1 {name=br_noconn}
+C {lab_wire.sym} 440 -50 1 1 {name=l7 sig_type=std_logic lab=bl_noconn}
+C {lab_wire.sym} 770 -50 1 1 {name=l8 sig_type=std_logic lab=br_noconn}
+C {noconn.sym} 810 -30 1 1 {name=br_noconn1}
+C {noconn.sym} 400 -30 3 0 {name=br_noconn2}
 C {yxt_title.sym} 440 330 0 0 {name=l9 author="Joanne Low" note="Circuits created by Openram"}

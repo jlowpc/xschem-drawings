@@ -50,8 +50,8 @@ N 1750 -810 3360 -810 { lab=br[0:3]}
 N 1930 -950 1930 -810 { lab=br[0:3]}
 N 2320 -600 2350 -600 { lab=bl[2]}
 N 2350 -730 2880 -730 { lab=wl[0]}
-C {devices/iopin.sym} 1810 -950 3 0 {name=p2 lab=bl[0:3]}
-C {devices/ipin.sym} 1140 -740 0 0 {name=p3 lab=wl[0:15]}
+C {iopin.sym} 1810 -950 3 0 {name=p2 lab=bl[0:3]}
+C {ipin.sym} 1140 -740 0 0 {name=p3 lab=wl[0:15]}
 C {cell_1rw.sym} 1230 20 0 0 {name=xbit_c0[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 1190 -490 0 0 {name=xbit_c0[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
@@ -60,13 +60,13 @@ C {cell_1rw.sym} 1770 20 0 0 {name=xbit_c1[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 1730 -490 0 0 {name=xbit_c1[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/iopin.sym} 1930 -950 3 0 {name=p1 lab=br[0:3]}
-C {devices/bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
-C {devices/bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
-C {devices/bus_connect.sym} 1250 -880 2 0 {name=l3 lab=bl[0]}
-C {devices/bus_connect.sym} 1750 -810 2 0 {name=l4 lab=br[0]}
-C {devices/bus_connect.sym} 1790 -880 2 0 {name=l5 lab=bl[1]}
-C {devices/bus_connect.sym} 2280 -810 2 0 {name=l6 lab=br[1]}
+C {iopin.sym} 1930 -950 3 0 {name=p1 lab=br[0:3]}
+C {bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
+C {bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
+C {bus_connect.sym} 1250 -880 2 0 {name=l3 lab=bl[0]}
+C {bus_connect.sym} 1750 -810 2 0 {name=l4 lab=br[0]}
+C {bus_connect.sym} 1790 -880 2 0 {name=l5 lab=bl[1]}
+C {bus_connect.sym} 2280 -810 2 0 {name=l6 lab=br[1]}
 C {cell_1rw.sym} 2310 20 0 0 {name=xbit_c2[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 2270 -490 0 0 {name=xbit_c2[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
@@ -75,8 +75,8 @@ C {cell_1rw.sym} 2840 20 0 0 {name=xbit_c3[1:15] vdd=vdd gnd=gnd}
 C {cell_1rw.sch} 2800 -490 0 0 {name=xbit_c3[0] prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd
 
 }
-C {devices/bus_connect.sym} 2330 -880 2 0 {name=l7 lab=bl[2]}
-C {devices/bus_connect.sym} 2830 -810 2 0 {name=l8 lab=br[2]}
-C {devices/bus_connect.sym} 2860 -880 2 0 {name=l9 lab=bl[3]}
-C {devices/bus_connect.sym} 3360 -810 2 0 {name=l10 lab=br[3]}
+C {bus_connect.sym} 2330 -880 2 0 {name=l7 lab=bl[2]}
+C {bus_connect.sym} 2830 -810 2 0 {name=l8 lab=br[2]}
+C {bus_connect.sym} 2860 -880 2 0 {name=l9 lab=bl[3]}
+C {bus_connect.sym} 3360 -810 2 0 {name=l10 lab=br[3]}
 C {yxt_title.sym} 1350 -50 0 0 {name=l11 author="Joanne Low" note="Circuits created by Openram"}

@@ -13,13 +13,13 @@ N -250 10 -140 10 { lab=Zb1_int}
 N -60 10 50 10 { lab=Zb2_int}
 N 130 10 240 10 { lab=Zb3_int}
 N 320 10 380 10 { lab=Z}
-C {devices/ipin.sym} -390 10 0 0 {name=p1793 lab=A }
-C {devices/opin.sym} 380 10 0 0 {name=p1794 lab=Z }
-C {devices/lab_wire.sym} -240 10 0 1 {name=l1778 lab=Zb1_int }
+C {ipin.sym} -390 10 0 0 {name=p1793 lab=A }
+C {opin.sym} 380 10 0 0 {name=p1794 lab=Z }
+C {lab_wire.sym} -240 10 0 1 {name=l1778 lab=Zb1_int }
 C {pinv_5.sym} -300 10 0 0 {name=xbuf_inv1 }
-C {devices/lab_wire.sym} -10 10 0 1 {name=l1782 lab=Zb2_int }
+C {lab_wire.sym} -10 10 0 1 {name=l1782 lab=Zb2_int }
 C {pinv_6.sym} -110 0 0 0 {name=xbuf_inv2 }
-C {devices/lab_wire.sym} 180 10 0 1 {name=l1786 lab=Zb3_int }
+C {lab_wire.sym} 180 10 0 1 {name=l1786 lab=Zb3_int }
 C {pinv_7.sym} 120 80 0 0 {name=xbuf_inv3 }
 C {pinv_8.sym} 270 10 0 0 {name=xbuf_inv4 }
 C {yxt_title.sym} -290 130 0 0 {name=l1 author="Joanne Low" note="Circuits created by Openram"}

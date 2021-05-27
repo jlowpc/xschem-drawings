@@ -33,49 +33,49 @@ N 230 -150 230 -130 { lab=#net3}
 N 190 -270 390 -270 { lab=C}
 N 100 -270 190 -270 { lab=C}
 N 530 -450 530 -180 { lab=B}
-C {devices/ipin.sym} 100 -360 0 0 {name=p210 lab=D }
-C {devices/ipin.sym} 100 -270 0 0 {name=p78 lab=C }
-C {devices/ipin.sym} 100 -450 0 0 {name=p53 lab=A }
-C {devices/ipin.sym} 100 -180 0 0 {name=p54 lab=B }
-C {devices/opin.sym} 660 -420 0 0 {name=p55 lab=Z }
-C {devices/iopin.sym} 210 -500 3 0 {name=p56 lab=vdd }
-C {devices/iopin.sym} 230 -60 1 0 {name=p57 lab=gnd }
-C {devices/nmos-sub.sym} 210 -360 0 0 {name=Mpnand4_nmos1 model=n substrate=gnd
+C {ipin.sym} 100 -360 0 0 {name=p210 lab=D }
+C {ipin.sym} 100 -270 0 0 {name=p78 lab=C }
+C {ipin.sym} 100 -450 0 0 {name=p53 lab=A }
+C {ipin.sym} 100 -180 0 0 {name=p54 lab=B }
+C {opin.sym} 660 -420 0 0 {name=p55 lab=Z }
+C {iopin.sym} 210 -500 3 0 {name=p56 lab=vdd }
+C {iopin.sym} 230 -60 1 0 {name=p57 lab=gnd }
+C {nmos-sub.sym} 210 -360 0 0 {name=Mpnand4_nmos1 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 140 -450 0 0 {name=Mpnand3_pmos1 model=p substrate=vdd
+C {pmos-sub.sym} 140 -450 0 0 {name=Mpnand3_pmos1 model=p substrate=vdd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 290 -450 0 0 {name=Mpnand4_pmos4 model=p substrate=vdd
+C {pmos-sub.sym} 290 -450 0 0 {name=Mpnand4_pmos4 model=p substrate=vdd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 210 -270 0 0 {name=Mpnand4_nmos2 model=n substrate=gnd
+C {nmos-sub.sym} 210 -270 0 0 {name=Mpnand4_nmos2 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 410 -450 0 0 {name=Mpnand4_pmos3 model=p substrate=vdd
+C {pmos-sub.sym} 410 -450 0 0 {name=Mpnand4_pmos3 model=p substrate=vdd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 210 -180 0 0 {name=Mpnand4_nmos3 model=n substrate=gnd
+C {nmos-sub.sym} 210 -180 0 0 {name=Mpnand4_nmos3 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/pmos-sub.sym} 550 -450 0 0 {name=Mpnand4_pmos2 model=p substrate=vdd
+C {pmos-sub.sym} 550 -450 0 0 {name=Mpnand4_pmos2 model=p substrate=vdd
 L=0.4u
 W=1.6u
 m=1
 }
-C {devices/nmos-sub.sym} 210 -100 0 0 {name=Mpnand4_nmos4 model=n substrate=gnd
+C {nmos-sub.sym} 210 -100 0 0 {name=Mpnand4_nmos4 model=n substrate=gnd
 L=0.4u
 W=1.6u
 m=1

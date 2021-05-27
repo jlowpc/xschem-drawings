@@ -10,7 +10,7 @@ S {}
 E {}
 N -60 -30 -10 -30 { lab=A}
 N 70 -30 120 -30 { lab=Z}
-C {devices/ipin.sym} -60 -30 0 0 {name=p1727 lab=A }
-C {devices/opin.sym} 120 -30 0 0 {name=p1728 lab=Z }
+C {ipin.sym} -60 -30 0 0 {name=p1727 lab=A }
+C {opin.sym} 120 -30 0 0 {name=p1728 lab=Z }
 C {pinv_2.sym} 20 -30 0 0 {name=xbuf_inv1 }
 C {yxt_title.sym} -90 50 0 0 {name=l1 author="Joanne Low" note="Circuits created by Openram"}

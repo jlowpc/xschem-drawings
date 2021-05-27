@@ -27,13 +27,13 @@ N 400 -720 430 -720 { lab=wl[0:18]}
 N 440 -220 510 -220 { lab=wl[1:17]}
 N 440 300 510 300 { lab=wl[18]}
 N 430 -720 430 310 { lab=wl[0:18]}
-C {devices/opin.sym} 400 -600 0 1 {name=p1 lab=bl[0]}
-C {devices/opin.sym} 1040 -600 0 0 {name=p2 lab=br[0]}
-C {devices/ipin.sym} 400 -720 0 0 {name=p3 lab=wl[0:18]}
+C {opin.sym} 400 -600 0 1 {name=p1 lab=bl[0]}
+C {opin.sym} 1040 -600 0 0 {name=p2 lab=br[0]}
+C {ipin.sym} 400 -720 0 0 {name=p3 lab=wl[0:18]}
 C {dummy_cell_1rw.sch} 120 -550 0 0 {name=Xrbc[0] vdd=vdd gnd=gnd}
 C {replica_cell_1rw.sch} 100 -80 0 0 {name=xrbc[1:17] vdd=vdd gnd=gnd}
 C {dummy_cell_1rw.sym} 700 310 0 0 {name=xrbc[18] vdd=vdd gnd=gnd}
-C {devices/bus_connect.sym} 430 -720 0 0 {name=l1 lab=wl[0]}
-C {devices/bus_connect.sym} 430 -210 0 0 {name=l2 lab=wl[1:17]}
-C {devices/bus_connect.sym} 430 310 0 0 {name=l3 lab=wl[18]}
+C {bus_connect.sym} 430 -720 0 0 {name=l1 lab=wl[0]}
+C {bus_connect.sym} 430 -210 0 0 {name=l2 lab=wl[1:17]}
+C {bus_connect.sym} 430 310 0 0 {name=l3 lab=wl[18]}
 C {yxt_title.sym} 600 500 0 0 {name=l4 author="Joanne Low" note="Circuits created by Openram"}

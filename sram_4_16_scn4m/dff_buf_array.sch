@@ -18,9 +18,9 @@ N -710 -300 -590 -300 { lab=din[0:1]}
 N -710 -230 -590 -230 { lab=clk}
 N -190 -280 -50 -280 { lab=dout_bar[0:1]}
 N -190 -190 -50 -190 { lab=dout[0:1]}
-C {devices/ipin.sym} -710 -300 0 0 {name=p1705 lab=din[0:1]}
-C {devices/opin.sym} -50 -190 0 0 {name=p1707 lab=dout[0:1]}
-C {devices/opin.sym} -50 -280 0 0 {name=p1708 lab=dout_bar[0:1]}
-C {devices/ipin.sym} -710 -230 0 0 {name=p1711 lab=clk }
+C {ipin.sym} -710 -300 0 0 {name=p1705 lab=din[0:1]}
+C {opin.sym} -50 -190 0 0 {name=p1707 lab=dout[0:1]}
+C {opin.sym} -50 -280 0 0 {name=p1708 lab=dout_bar[0:1]}
+C {ipin.sym} -710 -230 0 0 {name=p1711 lab=clk }
 C {dff_buf_0.sch} -540 640 0 0 {name=xdff_r[0:1] vdd=vdd gnd=gnd}
 C {yxt_title.sym} -600 -40 0 0 {name=l1 author="Joanne Low" note="Circuits created by Openram"}
