@@ -33,7 +33,7 @@ N 1380 920 1380 980 { lab=bl_outL}
 N 2160 920 2160 980 { lab=bl_outL}
 N 2940 920 2940 980 { lab=bl_outL}
 N 3700 920 3700 980 { lab=bl_outL}
-N 1380 980 3700 980 { lab=bl_outR}
+N 1380 980 3700 980 { lab=bl_outL}
 N 1870 920 1870 950 { lab=bl_outR}
 N 2650 920 2650 950 { lab=bl_outR}
 N 3430 920 3430 950 { lab=bl_outR}
@@ -82,7 +82,7 @@ C {precharge_0.sym} 3920 -930 0 0 {name=x15 prefix=sky130_fd_sc_hd__ vdd=vdd gnd
 C {ipin.sym} 1120 -640 0 0 {name=p2 lab=wl[0:15]}
 C {ipin.sym} 1120 640 0 0 {name=p3 lab=rbl_wl}
 C {dff.sym} 1520 1520 0 0 {name=x16 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
-C {dff.sch} 3050 2010 0 0 {name="" vdd=vdd gnd=gnd spice_ignore=true dash=4}
+C {dff.sch} 3050 2010 0 0 {name="" vdd=vdd gnd=gnd spice_ignore=true dash=5}
 C {ipin.sym} 1120 1560 0 0 {name=p4 lab=clk}
 C {1column.sym} 2410 0 0 0 {name=x3 vdd=vdd gnd=gnd}
 C {lab_wire.sym} 1380 750 0 0 {name=l1 sig_type=std_logic lab=blL[0]}
