@@ -39,11 +39,11 @@ N 1860 1250 2260 1250 { lab=clk_buf}
 N 1860 1160 1920 1160 { lab=clk_buf}
 C {port_address.sch} -870 -720 0 0 {name="" spice_ignore=true}
 C {column.sch} 200 -1270 0 0 {name="" spice_ignore=true}
-C {column.sym} 2390 1100 0 0 {name=xcol[0:1] vdd=vdd gnd=gnd dash=5}
-C {col_decoder.sym} 2050 1160 0 0 {name=xcoldec vdd=vdd gnd=gnd dash=5}
-C {row_decoder.sym} 2050 1060 0 0 {name=xrowdec vdd=vdd gnd=gnd dash=5}
-C {control_logic_rw.sym} 1710 990 0 0 {name=xcontrol vdd=vdd gnd=gnd dash=5}
-C {replica_column.sym} 2680 960 0 0 {name=xrepcol vdd=vdd gnd=gnd dash=5}
+C {column.sym} 2390 1100 0 0 {name=xcol[0:1] vdd=vdd gnd=gnd}
+C {col_decoder.sym} 2050 1160 0 0 {name=xcoldec vdd=vdd gnd=gnd}
+C {row_decoder.sym} 2050 1060 0 0 {name=xrowdec vdd=vdd gnd=gnd }
+C {control_logic_rw.sym} 1710 990 0 0 {name=xcontrol vdd=vdd gnd=gnd}
+C {replica_column.sym} 2680 960 0 0 {name=xrepcol vdd=vdd gnd=gnd}
 C {replica_column.sch} 50 880 0 0 {name="" spice_ignore=true}
 C {opin.sym} 2480 1330 1 0 {name=p1 lab=dout[0:1]}
 C {ipin.sym} 1520 930 0 0 {name=p3 lab=csb0}

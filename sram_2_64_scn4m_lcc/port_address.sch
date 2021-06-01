@@ -28,7 +28,7 @@ C {ipin.sym} 190 -1570 0 0 {name=p709 lab=wl_en }
 C {opin.sym} 2100 -1400 0 0 {name=p710 lab=wl[0:15]}
 C {opin.sym} 2100 -1560 0 0 {name=p726 lab=rbl_wl }
 C {lab_wire.sym} 1410 -1410 0 1 {name=l647 lab=dec_out[0:15]}
-C {hierarchical_decoder.sch} -770 -320 0 0 {name=xrow_decoder vdd=vdd gnd=gnd dash=5}
-C {wordline_driver_array.sch} 1510 -1320 0 0 {name=xwordline_driver vdd=vdd gnd=gnd dash=5}
-C {and2_dec_0.sch} 200 -1510 0 0 {name=xrbl_driver vdd=vdd gnd=gnd dash=5}
+C {hierarchical_decoder.sch} -770 -320 0 0 {name=xrow_decoder vdd=vdd gnd=gnd}
+C {wordline_driver_array.sch} 1510 -1320 0 0 {name=xwordline_driver vdd=vdd gnd=gnd}
+C {and2_dec_0.sch} 200 -1510 0 0 {name=xrbl_driver vdd=vdd gnd=gnd}
 C {lab_pin.sym} 220 -1550 3 0 {name=p3 lab=vdd}

@@ -66,25 +66,25 @@ C {ipin.sym} 1120 1100 0 0 {name=p1582 lab=s_en }
 C {ipin.sym} 1120 -980 0 0 {name=p1583 lab=p_en_bar }
 C {ipin.sym} 1120 1760 0 0 {name=p1584 lab=w_en }
 C {iopin.sym} 1120 850 2 0 {name=p1 lab=sel[0:3]}
-C {1column.sch} 140 100 0 0 {name=x2 vdd=vdd gnd=gnd dash=5}
-C {1column.sym} 3190 0 0 0 {name=x4 vdd=vdd gnd=gnd dash=5}
-C {1column.sym} 3950 0 0 0 {name=x5 vdd=vdd gnd=gnd dash=5}
-C {column_mux.sch} 1560 850 0 0 {name=xmux[0] vdd=vdd gnd=gnd dash=5}
-C {column_mux.sym} 2150 1300 0 0 {name=xmux[1] vdd=vdd gnd=gnd dash=5}
-C {column_mux.sym} 2930 1300 0 0 {name=xmux[2] vdd=vdd gnd=gnd dash=5}
-C {column_mux.sym} 3690 1300 0 0 {name=xmux[3] vdd=vdd gnd=gnd dash=5}
-C {sense_amp.sch} 960 1000 0 0 {name=x10 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {write_driver.sch} 1600 1810 0 0 {name=x11 vdd=vdd gnd=gnd dash=5}
-C {precharge_0.sch} 1250 -1080 0 0 {name=x12 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {precharge_0.sym} 2380 -930 0 0 {name=x13 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {precharge_0.sym} 3160 -930 0 0 {name=x14 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {precharge_0.sym} 3920 -930 0 0 {name=x15 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
+C {1column.sch} 140 100 0 0 {name=x2 vdd=vdd gnd=gnd }
+C {1column.sym} 3190 0 0 0 {name=x4 vdd=vdd gnd=gnd }
+C {1column.sym} 3950 0 0 0 {name=x5 vdd=vdd gnd=gnd }
+C {column_mux.sch} 1560 850 0 0 {name=xmux[0] vdd=vdd gnd=gnd }
+C {column_mux.sym} 2150 1300 0 0 {name=xmux[1] vdd=vdd gnd=gnd }
+C {column_mux.sym} 2930 1300 0 0 {name=xmux[2] vdd=vdd gnd=gnd }
+C {column_mux.sym} 3690 1300 0 0 {name=xmux[3] vdd=vdd gnd=gnd }
+C {sense_amp.sch} 960 1000 0 0 {name=x10 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
+C {write_driver.sch} 1600 1810 0 0 {name=x11 vdd=vdd gnd=gnd }
+C {precharge_0.sch} 1250 -1080 0 0 {name=x12 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
+C {precharge_0.sym} 2380 -930 0 0 {name=x13 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
+C {precharge_0.sym} 3160 -930 0 0 {name=x14 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
+C {precharge_0.sym} 3920 -930 0 0 {name=x15 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
 C {ipin.sym} 1120 -640 0 0 {name=p2 lab=wl[0:15]}
 C {ipin.sym} 1120 640 0 0 {name=p3 lab=rbl_wl}
-C {dff.sym} 1520 1520 0 0 {name=x16 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
+C {dff.sym} 1520 1520 0 0 {name=x16 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
 C {dff.sch} 3050 2010 0 0 {name="" vdd=vdd gnd=gnd spice_ignore=true}
 C {ipin.sym} 1120 1560 0 0 {name=p4 lab=clk}
-C {1column.sym} 2410 0 0 0 {name=x3 vdd=vdd gnd=gnd dash=5}
+C {1column.sym} 2410 0 0 0 {name=x3 vdd=vdd gnd=gnd }
 C {lab_wire.sym} 1380 750 0 0 {name=l1 sig_type=std_logic lab=blL[0]}
 C {lab_wire.sym} 1870 750 0 0 {name=l2 sig_type=std_logic lab=blR[0]}
 C {lab_wire.sym} 2160 750 0 0 {name=l3 sig_type=std_logic lab=blL[1]}

@@ -28,9 +28,9 @@ N 110 -270 160 -270 { lab=addr[5]}
 N 240 -370 260 -370 { lab=#net1}
 N 240 -250 260 -250 { lab=#net2}
 N 140 -320 160 -320 { lab=clk}
-C {hierarchical_predecode2x4.sch} 200 -40 0 0 {name=x2 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {dff.sym} 290 -360 0 0 {name=x3 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {dff.sym} 290 -240 0 0 {name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
+C {hierarchical_predecode2x4.sch} 200 -40 0 0 {name=x2 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
+C {dff.sym} 290 -360 0 0 {name=x3 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
+C {dff.sym} 290 -240 0 0 {name=x1 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {ipin.sym} 90 -400 0 0 {name=p1 lab=addr[4:5]}
 C {ipin.sym} 90 -200 0 0 {name=p2 lab=clk}
 C {opin.sym} 740 -360 0 0 {name=p4 lab=sel[0:3]}

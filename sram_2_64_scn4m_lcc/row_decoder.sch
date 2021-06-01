@@ -21,8 +21,8 @@ N 720 -150 750 -150 { lab=wl[0:15]}
 N 720 -130 750 -130 { lab=rbl_wl}
 N 90 -80 460 -80 { lab=wl_en}
 C {ipin.sym} 90 -160 0 0 {name=p1 lab=addr[0:3]}
-C {port_address.sym} 590 20 0 0 {name=x4 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
-C {row_addr_dff.sym} 270 -110 0 0 {name=x5 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
+C {port_address.sym} 590 20 0 0 {name=x4 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
+C {row_addr_dff.sym} 270 -110 0 0 {name=x5 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
 C {ipin.sym} 90 -100 0 0 {name=p8 lab=clk}
 C {ipin.sym} 90 -80 0 0 {name=p9 lab=wl_en}
 C {opin.sym} 750 -150 0 0 {name=p10 lab=wl[0:15]}
