@@ -13,7 +13,7 @@ L 4 290 -770 290 190 {}
 L 4 290 190 1380 190 {}
 L 4 290 -770 1380 -770 {}
 T {@symname} 300 -780 0 0 0.2 0.2 {}
-T {@name} 1320 -790 0 0 0.2 0.2 {}
+T {@name} 1220 -780 0 0 0.2 0.2 {}
 N 410 -570 450 -570 { lab=clk_buf}
 N 370 -60 500 -60 { lab=csb,web}
 N 1160 -40 1190 -40 { lab=cs_bar,cs}
@@ -76,7 +76,7 @@ C {delay_chain.sym} 1210 -630 0 1 {name=Xdelay_chain3 vdd=vdd gnd=gnd}
 C {lab_wire.sym} 780 -710 0 1 {lab=p_en_bar_unbuf }
 C {pnand2_1.sym} 710 -710 0 0 {name=Xnand_p_en_bar4 }
 C {pdriver_5.sym} 920 -710 0 0 {name=xbuf_p_en_bar7 }
-C {dff_buf_array.sch} 1210 240 0 0 {name=Xctrl_dffs5  prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd}
+C {dff_buf_array.sch} 1210 240 0 0 {name=Xctrl_dffs5  prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd dash=5}
 C {ipin.sym} 290 -60 0 0 {name=p13 lab=csb }
 C {ipin.sym} 290 -30 0 0 {name=p14 lab=web }
 C {opin.sym} 1380 -570 0 0 {name=p15 lab=clk_buf}
