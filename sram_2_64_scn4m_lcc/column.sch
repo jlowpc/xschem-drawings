@@ -81,7 +81,7 @@ C {precharge_0.sym} 3160 -930 0 0 {name=x14 prefix=sky130_fd_sc_hd__ vdd=vdd gnd
 C {precharge_0.sym} 3920 -930 0 0 {name=x15 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
 C {ipin.sym} 1120 -640 0 0 {name=p2 lab=wl[0:15]}
 C {ipin.sym} 1120 640 0 0 {name=p3 lab=rbl_wl}
-C {dff.sym} 1520 1520 0 0 {name=x16 prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
+C {dff.sym} 1520 1520 0 0 {name=xdff prefix=sky130_fd_sc_hd__ vdd=vdd gnd=gnd }
 C {dff.sch} 3050 2010 0 0 {name="" vdd=vdd gnd=gnd spice_ignore=true}
 C {ipin.sym} 1120 1560 0 0 {name=p4 lab=clk}
 C {1column.sym} 2410 0 0 0 {name=x3 vdd=vdd gnd=gnd }
