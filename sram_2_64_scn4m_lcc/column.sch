@@ -1,4 +1,5 @@
-v {xschem version=2.9.9 file_version=1.2 }
+v {xschem version=3.1.0 file_version=1.2
+}
 G {}
 K {type=subcircuit
 format="@name @pinlist @symname"
@@ -13,8 +14,6 @@ L 4 1120 -1090 4360 -1090 {}
 L 4 1120 2040 4360 2040 {}
 T {@symname} 1180 -1110 0 0 0.4 0.4 {}
 T {@name} 4290 -1120 0 0 0.4 0.4 {}
-N 1380 -740 1380 780 { lab=blL[0]}
-N 1870 -740 1870 780 { lab=blR[0]}
 N 2160 -740 2160 780 { lab=blL[1]}
 N 2650 -740 2650 780 { lab=blR[1]}
 N 3430 -740 3430 780 { lab=blR[2]}
@@ -59,7 +58,9 @@ N 1120 1100 1390 1100 { lab=s_en}
 N 1280 -980 2060 -980 { lab=p_en_bar}
 N 2060 -980 2840 -980 { lab=p_en_bar}
 N 2840 -980 3600 -980 { lab=p_en_bar}
-N 1280 -640 3600 -640 { lab=wl[0:15]}
+N 1970 -640 3600 -640 { lab=wl[0:15]}
+N 1380 710 1380 780 {}
+N 1870 710 1870 780 {}
 C {opin.sym} 1870 2040 1 0 {name=p1578 lab=dout}
 C {ipin.sym} 1120 1490 0 0 {name=p1580 lab=din}
 C {ipin.sym} 1120 1100 0 0 {name=p1582 lab=s_en }
