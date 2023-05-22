@@ -1,4 +1,5 @@
-v {xschem version=2.9.9 file_version=1.2 }
+v {xschem version=3.4.0 file_version=1.2
+}
 G {}
 K {type=subcircuit
 format="@name @@addr[0:3] @@decode[0:15] @vdd @gnd hierarchical_decoder"
@@ -51,7 +52,7 @@ N 1780 50 1880 50 { lab=out_6}
 N 1090 -1030 1140 -1030 { lab=addr[0]}
 N 1090 -910 1140 -910 { lab=addr[1]}
 N 1090 -700 1140 -700 { lab=addr[2]}
-N 1090 -640 1140 -640 { lab=addr[1]}
+N 1090 -640 1140 -640 { lab=addr[3]}
 N 1550 -1030 1600 -1030 { lab=out_0}
 N 1550 -950 1600 -950 { lab=out_1}
 N 1550 -870 1600 -870 { lab=out_2}
@@ -133,10 +134,6 @@ C {and2_dec.sym} 1920 120 0 0 {name=xDEC_AND_11 vdd=vdd gnd=gnd}
 C {lab_pin.sym} 1780 110 0 0 {name=p473 lab=out_3 }
 C {lab_pin.sym} 1780 130 0 0 {name=p474 lab=out_7 }
 C {and2_dec.sym} 1920 200 0 0 {name=xDEC_AND_15 vdd=vdd gnd=gnd}
-C {bus_connect.sym} 1080 -1040 1 0 {name=l1 lab=addr[0]}
-C {bus_connect.sym} 1080 -920 1 0 {name=l2 lab=addr[1]}
-C {bus_connect.sym} 1080 -710 1 0 {name=l3 lab=addr[2]}
-C {bus_connect.sym} 1080 -650 1 0 {name=l4 lab=addr[3]}
 C {lab_wire.sym} 1600 -950 0 1 {name=l5 lab=out_1}
 C {lab_wire.sym} 1600 -870 0 1 {name=l6 lab=out_2}
 C {lab_wire.sym} 1600 -780 0 1 {name=l7 lab=out_3}
@@ -160,3 +157,7 @@ C {bus_connect.sym} 2050 -130 3 1 {name=l24 lab=decode[3]}
 C {bus_connect.sym} 2050 -50 3 1 {name=l25 lab=decode[7]}
 C {bus_connect.sym} 2050 30 3 1 {name=l26 lab=decode[11]}
 C {bus_connect.sym} 2050 110 3 1 {name=l27 lab=decode[15]}
+C {devices/bus_tap.sym} 1080 -920 1 0 {name=l28 lab=[1]}
+C {devices/bus_tap.sym} 1080 -1040 1 0 {name=l29 lab=[0]}
+C {devices/bus_tap.sym} 1080 -710 1 0 {name=l30 lab=[2]}
+C {devices/bus_tap.sym} 1080 -650 1 0 {name=l31 lab=[3]}

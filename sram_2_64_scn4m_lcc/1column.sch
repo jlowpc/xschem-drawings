@@ -1,4 +1,4 @@
-v {xschem version=3.1.0 file_version=1.2
+v {xschem version=3.4.0 file_version=1.2
 }
 G {}
 K {type=subcircuit
@@ -65,6 +65,6 @@ C {lab_pin.sym} 1200 -100 0 0 {name=l3 sig_type=std_logic lab=gnd}
 C {lab_pin.sym} 1200 400 0 0 {name=l4 sig_type=std_logic lab=gnd}
 C {dummy_cell_1rw.sym} 1460 550 0 0 {name=xdummy_row vdd=vdd gnd=gnd}
 C {cell_1rw_passthru.sym} 1230 20 0 0 {name=xbit_c0[1:15] vdd=vdd gnd=gnd}
-C {bus_connect.sym} 1170 -740 1 0 {name=l1 lab=wl[0]}
-C {bus_connect.sym} 1170 -230 1 0 {name=l2 lab=wl[1:15]}
 C {ipin.sym} 1830 -740 2 0 {name=p7 lab=wl[0:15]}
+C {devices/bus_tap.sym} 1170 -740 1 0 {name=l5 lab=[0]}
+C {devices/bus_tap.sym} 1170 -230 1 0 {name=l6 lab=[1:15]}
